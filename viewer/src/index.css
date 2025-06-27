@@ -73,7 +73,7 @@ body {
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
-  padding: 20px; /* Add some padding to body */
+  padding: 20px 0px 0px 0px; /* Add some padding to body */
   box-sizing: border-box; /* Include padding in element's total width and height */
 }
 
@@ -233,4 +233,8 @@ pre .diff-separator {
 
 .theme-toggle:hover {
   color: var(--heading-color);
+}
+
+#root {
+  max-width: 100%;
 }

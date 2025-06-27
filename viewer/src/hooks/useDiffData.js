@@ -91,7 +91,35 @@ export const useDiffData = () => {
       .then((response) => response.json())
       .then((data) => {
         setData(data);
-        const availableVersions = Object.keys(data);
+        const availableVersions = Object.keys(data).sort((a, b) => {
+          const aMatch = a.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
+          const bMatch = b.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
+
+          if (!aMatch || !bMatch) {
+            return a.localeCompare(b);
+          }
+
+          for (let i = 1; i <= 3; i++) {
+            const aPart = parseInt(aMatch[i], 10);
+            const bPart = parseInt(bMatch[i], 10);
+            if (aPart !== bPart) {
+              return bPart - aPart;
+            }
+          }
+
+          const aPre = aMatch[4];
+          const bPre = bMatch[4];
+
+          if (aPre && !bPre) {
+            return 1;
+          } else if (!aPre && bPre) {
+            return -1;
+          } else if (aPre && bPre) {
+            return bPre.localeCompare(aPre);
+          }
+
+          return 0;
+        });
         setVersions(availableVersions);
         if (availableVersions.length > 1) {
           setSelectedVersion1(availableVersions[0]);

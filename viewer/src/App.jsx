@@ -16,12 +16,12 @@ function App() {
   } = useDiffData();
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <button className="theme-toggle" onClick={toggleTheme}>
         {theme === 'light' ? '🌙' : '☀️'}
       </button>
       <h1 className="mb-4">Udon Exposed Diff Viewer</h1>
-      <div className="row align-items-end">
+      <div className="row align-items-end gy-3">
         <VersionSelector
           versions={versions}
           selectedVersion={selectedVersion1}
