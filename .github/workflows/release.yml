@@ -1,0 +1,89 @@
+name: Build Release
+
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version flag to use for the release. This will be used to determine the version of the package."
+        required: false
+        type: string
+  # push:
+  #   branches:
+  #     - '**'
+
+jobs:
+
+  # Build and release the Package
+  # If the repository is not configured properly, this job will be skipped
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      packagePath: Packages/com.vrchat.worlds
+    steps:
+
+      # Checkout Local Repository
+      - name: Checkout
+        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+
+      # Restore Library Cache
+      - name: Restore Library Cache
+        uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-
+
+      # Install the vrc-get tool
+      - name: Setup vrc-get
+        uses: anatawa12/sh-actions/setup-vrc-get@1d155c7a26bcd0a54ffd9cb38fd66ab0d32d23cd
+
+      # Resolve VPM Packages
+      - uses: anatawa12/sh-actions/resolve-vpm-packages@1d155c7a26bcd0a54ffd9cb38fd66ab0d32d23cd
+        name: Resolve VPM Packages
+
+      # Upgrade the com.vrchat.worlds package
+      - name: Upgrade com.vrchat.worlds
+        if: ${{ github.event.inputs.version == '' }}
+        run: vrc-get upgrade com.vrchat.worlds --yes || true
+        continue-on-error: true
+      - name: Upgrade com.vrchat.worlds
+        if: ${{ github.event.inputs.version != '' }}
+        run: vrc-get upgrade com.vrchat.worlds ${{ github.event.inputs.version }} --yes || true
+        continue-on-error: true
+
+      # Get the Package version based on the package.json file
+      - name: Get Version
+        id: version
+        uses: zoexx/github-action-json-file-properties@b9f36ce6ee6fe2680cd3c32b2c62e22eade7e590
+        with: 
+            file_path: ${{ env.packagePath }}/package.json
+            prop_path: version
+
+      # Configure the Environment Variables needed for releasing the Package
+      - name: Set Environment Variables
+        run: |
+          echo "version=${{ steps.version.outputs.value }}" >> $GITHUB_ENV
+
+      # Build the Unity Project using the Unity Builder Action
+      - name: Build Unity Project
+        uses: game-ci/unity-builder@3b26780ddfe24a0ee2aebb0a65297ab69fc5bb4c
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          buildMethod: Builder.Build
+          allowDirtyBuild: true
+
+      # Commit the changes to the repository
+      - name: Commit Changes
+        id: commit
+        uses: EndBug/add-and-commit@v9
+        if: startsWith(github.ref, 'refs/heads/main')
+        with:
+          add: UdonExposed/*
+          tag: v${{env.version }} --force
+          tag_push: "--force"
