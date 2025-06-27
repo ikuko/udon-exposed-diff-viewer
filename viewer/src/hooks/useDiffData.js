@@ -85,6 +85,7 @@ export const useDiffData = () => {
   const [selectedVersion1, setSelectedVersion1] = useState('');
   const [selectedVersion2, setSelectedVersion2] = useState('');
   const [diffResult, setDiffResult] = useState([]);
+  const [compared, setCompared] = useState(false);
 
   useEffect(() => {
     fetch('./udon-data.json')
@@ -172,6 +173,7 @@ export const useDiffData = () => {
     }
 
     setDiffResult(result);
+    setCompared(true);
   };
 
   return {
@@ -181,6 +183,7 @@ export const useDiffData = () => {
     selectedVersion2,
     setSelectedVersion2,
     diffResult,
+    compared,
     handleCompare,
   };
 };

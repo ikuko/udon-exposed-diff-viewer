@@ -12,6 +12,7 @@ function App() {
     selectedVersion2,
     setSelectedVersion2,
     diffResult,
+    compared,
     handleCompare,
   } = useDiffData();
 
@@ -41,6 +42,11 @@ function App() {
         </div>
       </div>
 
+      {compared && diffResult.length === 0 && (
+        <div className="alert alert-success mt-4" role="alert">
+          No differences found.
+        </div>
+      )}
       {diffResult.length > 0 && <DiffViewer diffResult={diffResult} />}
     </div>
   );
