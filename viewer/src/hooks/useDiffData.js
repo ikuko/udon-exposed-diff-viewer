@@ -123,8 +123,8 @@ export const useDiffData = () => {
         });
         setVersions(availableVersions);
         if (availableVersions.length > 1) {
-          setSelectedVersion1(availableVersions[0]);
-          setSelectedVersion2(availableVersions[1]);
+          setSelectedVersion1(availableVersions[1]);
+          setSelectedVersion2(availableVersions[0]);
         }
       });
   }, []);
