@@ -51,7 +51,9 @@ jobs:
         continue-on-error: true
       - name: Upgrade com.vrchat.worlds
         if: ${{ github.event.inputs.version != '' }}
-        run: vrc-get upgrade com.vrchat.worlds ${{ github.event.inputs.version }} --yes || true
+        run: |
+          vrc-get remove com.vrchat.worlds --yes || true
+          vrc-get install com.vrchat.worlds ${{ github.event.inputs.version }} --yes || true
         continue-on-error: true
 
       # Get the Package version based on the package.json file
