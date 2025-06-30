@@ -13,11 +13,17 @@ export const useDiffData = () => {
       .then((response) => response.json())
       .then((data) => {
         const availableVersions = data.sort((a, b) => {
+          const aIsV = a.startsWith('v');
+          const bIsV = b.startsWith('v');
+
+          if (aIsV && !bIsV) return -1;
+          if (!aIsV && bIsV) return 1;
+
           const aMatch = a.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
           const bMatch = b.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
 
           if (!aMatch || !bMatch) {
-            return a.localeCompare(b);
+            return b.localeCompare(a);
           }
 
           for (let i = 1; i <= 3; i++) {
