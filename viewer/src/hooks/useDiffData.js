@@ -80,7 +80,6 @@ const getContextualLines = (lines, context = 3) => {
 };
 
 export const useDiffData = () => {
-  const [data, setData] = useState(null);
   const [versions, setVersions] = useState([]);
   const [selectedVersion1, setSelectedVersion1] = useState('');
   const [selectedVersion2, setSelectedVersion2] = useState('');
@@ -88,11 +87,10 @@ export const useDiffData = () => {
   const [compared, setCompared] = useState(false);
 
   useEffect(() => {
-    fetch('./udon-data.json')
+    fetch('./versions.json')
       .then((response) => response.json())
       .then((data) => {
-        setData(data);
-        const availableVersions = Object.keys(data).sort((a, b) => {
+        const availableVersions = data.sort((a, b) => {
           const aMatch = a.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
           const bMatch = b.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
 
@@ -129,13 +127,18 @@ export const useDiffData = () => {
       });
   }, []);
 
-  const handleCompare = () => {
-    if (!selectedVersion1 || !selectedVersion2 || !data) {
+  const handleCompare = async () => {
+    if (!selectedVersion1 || !selectedVersion2) {
       return;
     }
 
-    const version1Files = data[selectedVersion1];
-    const version2Files = data[selectedVersion2];
+    const [res1, res2] = await Promise.all([
+      fetch(`./data/${selectedVersion1}.json`),
+      fetch(`./data/${selectedVersion2}.json`),
+    ]);
+
+    const version1Files = await res1.json();
+    const version2Files = await res2.json();
 
     const allFiles = new Set([...Object.keys(version1Files), ...Object.keys(version2Files)]);
 
@@ -164,7 +167,7 @@ export const useDiffData = () => {
         result.push({ file, lines, type: 'removed' });
       } else if (version1Files[file] !== version2Files[file]) {
         const differences = diffLines(version1Files[file], version2Files[file]);
-        const lineArray = createLineArray(differences, version1Files[file].split('\n'), version2Files[file].split('\n'));
+        const lineArray = createLineArray(differences);
         const contextualLines = getContextualLines(lineArray);
         if (contextualLines.length > 0) {
             result.push({ file, lines: contextualLines, type: 'modified' });

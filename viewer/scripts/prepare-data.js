@@ -9,35 +9,34 @@ try {
 
   const udonExposedDir = path.resolve(__dirname, '../../UdonExposed');
   const publicDir = path.resolve(__dirname, '../public');
+  const dataDir = path.resolve(publicDir, 'data');
 
-  const data = {};
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
 
-  const versions = fs.readdirSync(udonExposedDir);
+  const versions = fs.readdirSync(udonExposedDir).filter(version => {
+    const versionDir = path.join(udonExposedDir, version);
+    return fs.statSync(versionDir).isDirectory();
+  });
 
   for (const version of versions) {
     const versionDir = path.join(udonExposedDir, version);
-    const stats = fs.statSync(versionDir);
+    const versionData = {};
+    const files = fs.readdirSync(versionDir);
 
-    if (stats.isDirectory()) {
-      data[version] = {};
-      const files = fs.readdirSync(versionDir);
-
-      for (const file of files) {
-        const filePath = path.join(versionDir, file);
-        const content = fs.readFileSync(filePath, 'utf-8');
-        data[version][file] = content;
-      }
+    for (const file of files) {
+      const filePath = path.join(versionDir, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      versionData[file] = content;
     }
+    fs.writeFileSync(path.join(dataDir, `${version}.json`), JSON.stringify(versionData, null, 2));
   }
 
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
-  }
+  fs.writeFileSync(path.join(publicDir, 'versions.json'), JSON.stringify(versions, null, 2));
 
-  fs.writeFileSync(path.join(publicDir, 'udon-data.json'), JSON.stringify(data, null, 2));
-
-  console.log('Successfully prepared udon-data.json');
+  console.log('Successfully prepared versioned data and versions.json');
 }
 catch (e) {
-  console.log('Failed prepared udon-data.json');
+  console.error('Failed to prepare versioned data:', e);
 }
