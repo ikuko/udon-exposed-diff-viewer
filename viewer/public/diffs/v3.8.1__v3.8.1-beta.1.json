@@ -1,0 +1,314 @@
+[
+  {
+    "file": "UdonSpecialNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Const_Null\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "Const_This\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "Event_Custom\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 6
+      },
+      {
+        "text": "Event_Custom_1_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_2_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_3_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_4_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_5_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_6_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_7_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_Custom_8_Parameters\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVariableChange\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 7
+      },
+      {
+        "text": "For\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 8
+      },
+      {
+        "text": "Get_Variable\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 9
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3UdonNetworkCallingNetworkCallingNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__GetAllQueuedEvents__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__GetQueuedEvents__VRCUdonCommonInterfacesIUdonEventReceiver_SystemString__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__SendCustomNetworkEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__get_CallingPlayer__VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3UdonNetworkCallingNetworkCalling.__get_InNetworkCall__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCUdonCommonInterfacesIUdonEventReceiverNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedFrames__SystemString_SystemInt32_VRCUdonCommonEnumsEventTiming__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 7
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 8
+      },
+      {
+        "text": "VRCUdonCommonInterfacesIUdonEventReceiver.__get_DisableInteractive__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 9
+      }
+    ],
+    "type": "modified"
+  }
+]

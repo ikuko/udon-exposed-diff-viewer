@@ -1,0 +1,50 @@
+[
+  {
+    "file": "VRCEconomyStoreNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyStore.__OpenGroupPage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "VRCEconomyStore.__OpenGroupStorePage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 12,
+        "lineNum2": 12
+      },
+      {
+        "text": "VRCEconomyStore.__OpenListing__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 13,
+        "lineNum2": 13
+      },
+      {
+        "text": "VRCEconomyStore.__OpenWorldStorePage__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 14
+      },
+      {
+        "text": "VRCEconomyStore.__SendProductEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCEconomyIProduct__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 14,
+        "lineNum2": 15
+      },
+      {
+        "text": "VRCEconomyStore.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 16
+      }
+    ],
+    "type": "modified"
+  }
+]
