@@ -87,18 +87,18 @@ try {
   const udonExposedDir = path.resolve(__dirname, '../../UdonExposed');
   const publicDir = path.resolve(__dirname, '../public');
   const diffsDir = path.resolve(publicDir, 'diffs');
-  const baseDir = path.resolve(publicDir, 'base');
+  const dataDir = path.resolve(publicDir, 'data');
 
   // Clean up existing directories
   console.log('Cleaning up old data...');
   if (fs.existsSync(diffsDir)) {
     fs.rmSync(diffsDir, { recursive: true, force: true });
   }
-  if (fs.existsSync(baseDir)) {
-    fs.rmSync(baseDir, { recursive: true, force: true });
+  if (fs.existsSync(dataDir)) {
+    fs.rmSync(dataDir, { recursive: true, force: true });
   }
   fs.mkdirSync(diffsDir, { recursive: true });
-  fs.mkdirSync(baseDir, { recursive: true });
+  fs.mkdirSync(dataDir, { recursive: true });
 
   const versions = fs.readdirSync(udonExposedDir).filter(version => {
     const versionDir = path.join(udonExposedDir, version);
@@ -182,13 +182,13 @@ try {
   }
 
   console.log('\nCopying full version data...');
-  if (!fs.existsSync(baseDir)) {
-    fs.mkdirSync(baseDir, { recursive: true });
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
   }
   versions.forEach((version, index) => {
     const progress = Math.round(((index + 1) / versions.length) * 100);
     console.log(`[${progress}%] Copying ${version}...`);
-    fs.writeFileSync(path.join(baseDir, `${version}.json`), JSON.stringify(versionData[version], null, 2));
+    fs.writeFileSync(path.join(dataDir, `${version}.json`), JSON.stringify(versionData[version], null, 2));
   });
 
   fs.writeFileSync(path.join(publicDir, 'versions.json'), JSON.stringify(versions, null, 2));
