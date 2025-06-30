@@ -1,0 +1,7 @@
+VRCSDKBaseVRCUrl.__ctor____VRCSDKBaseVRCUrl
+VRCSDKBaseVRCUrl.__Get__SystemString
+VRCSDKBaseVRCUrl.__Equals__SystemObject__SystemBoolean
+VRCSDKBaseVRCUrl.__GetHashCode__SystemInt32
+VRCSDKBaseVRCUrl.__GetType__SystemType
+VRCSDKBaseVRCUrl.__ToString__SystemString
+Variable_VRCSDKBaseVRCUrl
