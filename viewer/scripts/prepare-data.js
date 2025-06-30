@@ -134,6 +134,7 @@ try {
 
       if (getMinorVersionDiff(version1, version2) <= 1) {
         combinations.push([version1, version2]);
+        combinations.push([version2, version1]);
       }
     }
   }

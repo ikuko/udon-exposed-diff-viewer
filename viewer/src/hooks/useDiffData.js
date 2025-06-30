@@ -152,8 +152,8 @@ export const useDiffData = () => {
       return;
     }
 
-    // Ensure version1 is always the smaller version for consistency
-    const [v1, v2] = [selectedVersion1, selectedVersion2].sort();
+    const v1 = selectedVersion1;
+    const v2 = selectedVersion2;
 
     if (getMinorVersionDiff(v1, v2) <= 1) {
       try {
