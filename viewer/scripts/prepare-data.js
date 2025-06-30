@@ -97,8 +97,10 @@ try {
     return fs.statSync(versionDir).isDirectory();
   });
 
+  console.log('Reading version data...');
   const versionData = {};
   for (const version of versions) {
+    console.log(`- ${version}`);
     const versionDir = path.join(udonExposedDir, version);
     versionData[version] = {};
     const files = fs.readdirSync(versionDir);
@@ -108,10 +110,17 @@ try {
     }
   }
 
+  console.log('\nCalculating diffs...');
+  const totalCombinations = versions.length * (versions.length - 1) / 2;
+  let processedCombinations = 0;
+
   for (let i = 0; i < versions.length; i++) {
     for (let j = i + 1; j < versions.length; j++) {
       const version1 = versions[i];
       const version2 = versions[j];
+
+      processedCombinations++;
+      console.log(`[${processedCombinations}/${totalCombinations}] Calculating diff between ${version1} and ${version2}...`);
 
       const version1Files = versionData[version1];
       const version2Files = versionData[version2];
