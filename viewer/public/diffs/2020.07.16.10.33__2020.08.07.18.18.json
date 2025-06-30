@@ -1,0 +1,174 @@
+[
+  {
+    "file": "VRCSDKBaseVRCPlayerApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_isMaster__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__IsPlayerGrounded__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_AllPlayers__SystemCollectionsGenericListVRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayers__VRCSDKBaseVRCPlayerApiArray__VRCSDKBaseVRCPlayerApiArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerId__VRCSDKBaseVRCPlayerApi__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 7
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_playerId__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 8
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 9
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 1,
+        "lineNum2": 1
+      },
+      {
+        "text": "Type_SystemCollectionsGenericListVRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApiArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 2
+      },
+      {
+        "text": "Type_SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "Type_UnityEngineGameObject\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemInt64Array\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 23,
+        "lineNum2": 23
+      },
+      {
+        "text": "Type_SystemArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 24,
+        "lineNum2": 24
+      },
+      {
+        "text": "Type_SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 25,
+        "lineNum2": 25
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApiArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApiTrackingDataArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 27,
+        "lineNum2": 26
+      },
+      {
+        "text": "Type_VRCSDKBaseVRC_EventHandler\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 28,
+        "lineNum2": 27
+      },
+      {
+        "text": "Type_SystemDateTime\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 29,
+        "lineNum2": 28
+      }
+    ],
+    "type": "modified"
+  }
+]

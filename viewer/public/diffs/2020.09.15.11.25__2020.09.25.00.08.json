@@ -1,0 +1,340 @@
+[
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_OnSpawn\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 9
+      },
+      {
+        "text": "Event_OnStationEntered\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "Event_OnStationExited\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "Event_OnVideoEnd\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoPause\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoPlay\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoStart\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerCollisionEnter\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 12
+      },
+      {
+        "text": "Event_OnPlayerCollisionStay\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 13
+      },
+      {
+        "text": "Event_OnPlayerCollisionExit\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 14
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPreSerialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 24,
+        "lineNum2": 20
+      },
+      {
+        "text": "Event_OnVideoReady\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 25,
+        "lineNum2": 21
+      },
+      {
+        "text": "Event_OnVideoError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 26,
+        "lineNum2": 22
+      },
+      {
+        "text": "Event_OnVideoStart\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 23
+      },
+      {
+        "text": "Event_OnVideoLoop\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 27,
+        "lineNum2": 24
+      },
+      {
+        "text": "Event_OnVideoEnd\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 25
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3ComponentsVRCUrlInputFieldNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 1,
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnEndDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnPointerDown__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnUpdateSelected__UnityEngineEventSystemsBaseEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 7
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_asteriskChar__SystemChar\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 58,
+        "lineNum2": 59
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_asteriskChar__SystemChar__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 59,
+        "lineNum2": 60
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_wasCanceled__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 60,
+        "lineNum2": 61
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_caretPosition__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 61,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_caretPosition__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 62,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_selectionAnchorPosition__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 63,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_selectionAnchorPosition__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 64,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_selectionFocusPosition__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 65,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_selectionFocusPosition__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 66,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnBeginDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 67,
+        "lineNum2": 62
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 68,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_navigation__UnityEngineUINavigation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 69,
+        "lineNum2": 63
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_navigation__UnityEngineUINavigation__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 70,
+        "lineNum2": 64
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_transition__UnityEngineUISelectableTransition\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 71,
+        "lineNum2": 65
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_UnityEngineEventSystemsAxisEventData\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 78,
+        "lineNum2": 78
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputField\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 79,
+        "lineNum2": 79
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 80,
+        "lineNum2": 80
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVideoVideoError\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 81
+      },
+      {
+        "text": "Type_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 81,
+        "lineNum2": 82
+      },
+      {
+        "text": "Type_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 82,
+        "lineNum2": 83
+      },
+      {
+        "text": "Type_VRCUdonCommonInterfacesNetworkEventTarget\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 83,
+        "lineNum2": 84
+      }
+    ],
+    "type": "modified"
+  }
+]

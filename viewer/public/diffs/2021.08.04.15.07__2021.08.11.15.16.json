@@ -1,0 +1,57 @@
+[
+  {
+    "file": "UnityEngineUIColorBlockNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineUIColorBlock.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 6
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__get_colorMultiplier__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 7
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__get_defaultColorBlock__UnityEngineUIColorBlock\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 8
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__get_disabledColor__UnityEngineColor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 9
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__get_fadeDuration__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 10
+      },
+      {
+        "text": "UnityEngineUIColorBlock.__get_highlightedColor__UnityEngineColor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 11
+      }
+    ],
+    "type": "modified"
+  }
+]

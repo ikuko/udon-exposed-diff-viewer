@@ -1,0 +1,264 @@
+[
+  {
+    "file": "UdonTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_UnityEngineAnimatorRecorderMode\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 88,
+        "lineNum2": 88
+      },
+      {
+        "text": "Type_UnityEngineRuntimeAnimatorController\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 89,
+        "lineNum2": 89
+      },
+      {
+        "text": "Type_UnityEngineAvatar\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 90,
+        "lineNum2": 90
+      },
+      {
+        "text": "Type_UnityEnginePlayablesPlayableGraph\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 91,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineHumanBodyBones\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 92,
+        "lineNum2": 91
+      },
+      {
+        "text": "Type_UnityEngineAnimatorStateInfo\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 93,
+        "lineNum2": 92
+      },
+      {
+        "text": "Type_UnityEngineAnimatorTransitionInfo\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 94,
+        "lineNum2": 93
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEnginePhysicsArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 298,
+        "lineNum2": 297
+      },
+      {
+        "text": "Type_UnityEngineRaycastHit2D\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 299,
+        "lineNum2": 298
+      },
+      {
+        "text": "Type_UnityEnginePhysicsScene2D\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 300,
+        "lineNum2": 299
+      },
+      {
+        "text": "Type_UnityEnginePhysicsJobOptions2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 301,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEnginePhysics2D\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 302,
+        "lineNum2": 300
+      },
+      {
+        "text": "Type_UnityEnginePhysics2DArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 303,
+        "lineNum2": 301
+      },
+      {
+        "text": "Type_UnityEnginePhysicMaterialCombine\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 304,
+        "lineNum2": 302
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEngineAnimatorNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineAnimator.__get_recorderMode__UnityEngineAnimatorRecorderMode\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 42,
+        "lineNum2": 42
+      },
+      {
+        "text": "UnityEngineAnimator.__get_runtimeAnimatorController__UnityEngineRuntimeAnimatorController\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 43,
+        "lineNum2": 43
+      },
+      {
+        "text": "UnityEngineAnimator.__set_runtimeAnimatorController__UnityEngineRuntimeAnimatorController__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 44,
+        "lineNum2": 44
+      },
+      {
+        "text": "UnityEngineAnimator.__get_hasBoundPlayables__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineAnimator.__HasState__SystemInt32_SystemInt32__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 46,
+        "lineNum2": 45
+      },
+      {
+        "text": "UnityEngineAnimator.__StringToHash__SystemString__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 47,
+        "lineNum2": 46
+      },
+      {
+        "text": "UnityEngineAnimator.__get_avatar__UnityEngineAvatar\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 48,
+        "lineNum2": 47
+      },
+      {
+        "text": "UnityEngineAnimator.__set_avatar__UnityEngineAvatar__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 49,
+        "lineNum2": 48
+      },
+      {
+        "text": "UnityEngineAnimator.__get_playableGraph__UnityEnginePlayablesPlayableGraph\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineAnimator.__SetLookAtPosition__UnityEngineVector3__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 51,
+        "lineNum2": 49
+      },
+      {
+        "text": "UnityEngineAnimator.__SetLookAtWeight__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 52,
+        "lineNum2": 50
+      },
+      {
+        "text": "UnityEngineAnimator.__SetLookAtWeight__SystemSingle_SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 53,
+        "lineNum2": 51
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEnginePhysics2DNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEnginePhysics2D.__set_callbacksOnDisable__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 188,
+        "lineNum2": 188
+      },
+      {
+        "text": "UnityEnginePhysics2D.__get_reuseCollisionCallbacks__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 189,
+        "lineNum2": 189
+      },
+      {
+        "text": "UnityEnginePhysics2D.__set_reuseCollisionCallbacks__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 190,
+        "lineNum2": 190
+      },
+      {
+        "text": "UnityEnginePhysics2D.__get_jobOptions__UnityEnginePhysicsJobOptions2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 191,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEnginePhysics2D.__set_jobOptions__UnityEnginePhysicsJobOptions2D__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 192,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEnginePhysics2D.__get_velocityThreshold__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 193,
+        "lineNum2": 191
+      },
+      {
+        "text": "UnityEnginePhysics2D.__set_velocityThreshold__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 194,
+        "lineNum2": 192
+      },
+      {
+        "text": "UnityEnginePhysics2D.__get_maxLinearCorrection__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 195,
+        "lineNum2": 193
+      }
+    ],
+    "type": "modified"
+  }
+]

@@ -87,10 +87,18 @@ try {
   const udonExposedDir = path.resolve(__dirname, '../../UdonExposed');
   const publicDir = path.resolve(__dirname, '../public');
   const diffsDir = path.resolve(publicDir, 'diffs');
+  const baseDir = path.resolve(publicDir, 'base');
 
-  if (!fs.existsSync(diffsDir)) {
-    fs.mkdirSync(diffsDir, { recursive: true });
+  // Clean up existing directories
+  console.log('Cleaning up old data...');
+  if (fs.existsSync(diffsDir)) {
+    fs.rmSync(diffsDir, { recursive: true, force: true });
   }
+  if (fs.existsSync(baseDir)) {
+    fs.rmSync(baseDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(diffsDir, { recursive: true });
+  fs.mkdirSync(baseDir, { recursive: true });
 
   const versions = fs.readdirSync(udonExposedDir).filter(version => {
     const versionDir = path.join(udonExposedDir, version);
@@ -111,54 +119,77 @@ try {
   }
 
   console.log('\nCalculating diffs...');
-  const totalCombinations = versions.length * (versions.length - 1) / 2;
-  let processedCombinations = 0;
-
+  const combinations = [];
   for (let i = 0; i < versions.length; i++) {
     for (let j = i + 1; j < versions.length; j++) {
       const version1 = versions[i];
       const version2 = versions[j];
 
-      processedCombinations++;
-      console.log(`[${processedCombinations}/${totalCombinations}] Calculating diff between ${version1} and ${version2}...`);
-
-      const version1Files = versionData[version1];
-      const version2Files = versionData[version2];
-
-      const allFiles = new Set([...Object.keys(version1Files), ...Object.keys(version2Files)]);
-      const diffResult = [];
-
-      for (const file of allFiles) {
-        if (!version1Files[file]) {
-          const lines = version2Files[file].split('\n').map((line, index) => ({
-            text: line + '\n',
-            added: true,
-            removed: false,
-            lineNum1: '',
-            lineNum2: index + 1,
-          }));
-          diffResult.push({ file, lines, type: 'added' });
-        } else if (!version2Files[file]) {
-          const lines = version1Files[file].split('\n').map((line, index) => ({
-            text: line + '\n',
-            added: false,
-            removed: true,
-            lineNum1: index + 1,
-            lineNum2: '',
-          }));
-          diffResult.push({ file, lines, type: 'removed' });
-        } else if (version1Files[file] !== version2Files[file]) {
-          const differences = diffLines(version1Files[file], version2Files[file]);
-          const lineArray = createLineArray(differences);
-          const contextualLines = getContextualLines(lineArray);
-          if (contextualLines.length > 0) {
-              diffResult.push({ file, lines: contextualLines, type: 'modified' });
-          }
-        }
+      const getMinorVersionDiff = (v1, v2) => {
+        const aMatch = v1.match(/v?(\d+)\.(\d+)/);
+        const bMatch = v2.match(/v?(\d+)\.(\d+)/);
+        if (!aMatch || !bMatch) return Infinity;
+        return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
       }
-      fs.writeFileSync(path.join(diffsDir, `${version1}__${version2}.json`), JSON.stringify(diffResult, null, 2));
+
+      if (getMinorVersionDiff(version1, version2) <= 1) {
+        combinations.push([version1, version2]);
+      }
     }
   }
+
+  let processedCombinations = 0;
+  for (const [version1, version2] of combinations) {
+    processedCombinations++;
+    const progress = Math.round((processedCombinations / combinations.length) * 100);
+    console.log(`[${progress}%] Calculating diff between ${version1} and ${version2}...`);
+
+    const version1Files = versionData[version1];
+    const version2Files = versionData[version2];
+
+    const allFiles = new Set([...Object.keys(version1Files), ...Object.keys(version2Files)]);
+    const diffResult = [];
+
+    for (const file of allFiles) {
+      if (!version1Files[file]) {
+        const lines = version2Files[file].split('\n').map((line, index) => ({
+          text: line + '\n',
+          added: true,
+          removed: false,
+          lineNum1: '',
+          lineNum2: index + 1,
+        }));
+        diffResult.push({ file, lines, type: 'added' });
+      } else if (!version2Files[file]) {
+        const lines = version1Files[file].split('\n').map((line, index) => ({
+          text: line + '\n',
+          added: false,
+          removed: true,
+          lineNum1: index + 1,
+          lineNum2: '',
+        }));
+        diffResult.push({ file, lines, type: 'removed' });
+      } else if (version1Files[file] !== version2Files[file]) {
+        const differences = diffLines(version1Files[file], version2Files[file]);
+        const lineArray = createLineArray(differences);
+        const contextualLines = getContextualLines(lineArray);
+        if (contextualLines.length > 0) {
+            diffResult.push({ file, lines: contextualLines, type: 'modified' });
+        }
+      }
+    }
+    fs.writeFileSync(path.join(diffsDir, `${version1}__${version2}.json`), JSON.stringify(diffResult, null, 2));
+  }
+
+  console.log('\nCopying full version data...');
+  if (!fs.existsSync(baseDir)) {
+    fs.mkdirSync(baseDir, { recursive: true });
+  }
+  versions.forEach((version, index) => {
+    const progress = Math.round(((index + 1) / versions.length) * 100);
+    console.log(`[${progress}%] Copying ${version}...`);
+    fs.writeFileSync(path.join(baseDir, `${version}.json`), JSON.stringify(versionData[version], null, 2));
+  });
 
   fs.writeFileSync(path.join(publicDir, 'versions.json'), JSON.stringify(versions, null, 2));
 
