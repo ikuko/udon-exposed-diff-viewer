@@ -51,7 +51,7 @@ function App() {
         </div>
 
         {loading && (
-          <div className="text-center mt-4">
+          <div className="d-flex justify-content-center mt-4">
             <div className="spinner-border" role="status">
               <span className="visually-hidden">Loading...</span>
             </div>
@@ -59,8 +59,10 @@ function App() {
         )}
 
         {compared && diffResult.length === 0 && !loading && (
-          <div className="alert alert-success mt-4" role="alert">
-            No differences found.
+          <div className="text-center mt-4">
+            <div className="alert alert-success" role="alert">
+              No differences found.
+            </div>
           </div>
         )}
         {diffResult.length > 0 && !loading && <DiffViewer diffResult={diffResult} />}
