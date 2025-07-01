@@ -1,11 +1,13 @@
 import { useTheme } from './hooks/useTheme';
 import { useDiffData } from './hooks/useDiffData';
+import { useViewportHeight } from './hooks/useViewportHeight';
 import Navbar from './components/Navbar';
 import VersionSelector from './components/VersionSelector';
 import DiffViewer from './components/DiffViewer';
 import Footer from './components/Footer';
 
 function App() {
+  useViewportHeight(); // Set viewport height
   const [theme, toggleTheme] = useTheme();
   const {
     versions,
@@ -20,7 +22,7 @@ function App() {
   } = useDiffData();
 
   return (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column" style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <div className="container-fluid pt-5 mt-5 flex-grow-1 d-flex flex-column justify-content-center">
         <div className="row align-items-end gy-3">
