@@ -108,7 +108,7 @@ footer {
   margin: 0 auto; /* Center container */
   max-width: 960px;
   width: 100%;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 h1, h2 {
@@ -133,7 +133,7 @@ h1, h2 {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
   background-color: var(--container-bg);
   color: var(--text-color);
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .form-select:focus, .form-control:focus {
@@ -148,7 +148,7 @@ h1, h2 {
   border-radius: 8px;
   padding: 12px 25px;
   font-weight: 600;
-  transition: all 0.2s ease;
+  transition: color 0.3s ease;
   box-shadow: 0 2px 4px var(--btn-primary-shadow);
   color: white; /* Text color for primary button */
 }
@@ -165,7 +165,7 @@ h1, h2 {
   border: 1px solid var(--card-border);
   box-shadow: 0 3px 10px var(--card-shadow);
   overflow: hidden;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .card-header {
@@ -175,7 +175,7 @@ h1, h2 {
   font-weight: 600;
   padding: 15px 20px;
   font-size: 1.1em;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .card-body {
@@ -193,7 +193,7 @@ h1, h2 {
   font-size: 0.9em;
   line-height: 1.5;
   margin-bottom: 0;
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .diff-pre span {
