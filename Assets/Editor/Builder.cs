@@ -1,8 +1,12 @@
+#if VRC_SDK_VRCSDK3_0_9_OR_NEWER
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+#endif
 using System.IO;
 using System.Linq;
+#if VRC_SDK_VRCSDK3_0_9_OR_NEWER
 using System.Threading.Tasks;
+#endif
 using UnityEditor;
 using UnityEngine;
 using VRC.Udon.Editor;
@@ -51,8 +55,15 @@ internal static class Builder {
     }
 
     static string GetVRCSDKWorldVersion() {
-        var json = File.ReadAllText(Path.Combine(Application.dataPath, "..", "Packages", "com.vrchat.worlds", "package.json"));
+#if VRC_SDK_VRCSDK3_0_9_OR_NEWER
+        var packagePath = Path.Combine(Application.dataPath, "..", "Packages", "com.vrchat.worlds", "package.json");
+        var json = File.ReadAllText(packagePath);
         var obj = JsonConvert.DeserializeObject<JObject>(json);
         return obj.GetValue("version").ToString();
+#else
+        var versionPath = Path.Combine(Application.dataPath, "VRCSDK", "version.txt");
+        var txt = File.ReadAllText(versionPath);
+        return txt.Trim();
+#endif
     }
 }

@@ -1,0 +1,23 @@
+{
+    "name": "HoshinoLabs.UdonExposedDiffViewer.Editor",
+    "references": [
+        "GUID:627c4d5cd580ddf41bd320e784fe8b9d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.vrchat.worlds",
+            "expression": "3.0.9",
+            "define": "VRC_SDK_VRCSDK3_0_9_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}
