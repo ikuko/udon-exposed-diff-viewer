@@ -28,6 +28,7 @@
   --diff-separator-color: #adb5bd;
   --line-num-color: #adb5bd;
   --line-num-bg: #f0f0f0;
+  --navbar-brand-color: #343a40;
 }
 
 :root[data-bs-theme='dark'] {
@@ -60,6 +61,11 @@
   --diff-separator-color: #6c757d;
   --line-num-color: #6c757d;
   --line-num-bg: #282c34;
+  --navbar-brand-color: #e9ecef;
+}
+
+.navbar-brand {
+  color: var(--navbar-brand-color);
 }
 
 body {
@@ -75,6 +81,11 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   padding: 20px 0px 0px 0px; /* Add some padding to body */
   box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+nav {
+  background-color: var(--body-bg-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
