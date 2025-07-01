@@ -87,12 +87,13 @@ body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: color 0.3s ease;
 }
 
 nav {
   background-color: var(--body-bg-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 footer {
@@ -188,7 +189,7 @@ h1, h2 {
   padding: 0; /* Remove padding here, add to line-num and content */
   white-space: pre-wrap;
   word-break: break-all;
-  font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 0.9em;
   line-height: 1.5;
   margin-bottom: 0;
