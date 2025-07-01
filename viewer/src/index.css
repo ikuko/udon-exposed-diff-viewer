@@ -68,6 +68,15 @@
   color: var(--navbar-brand-color);
 }
 
+.theme-toggle-btn {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  color: var(--heading-color);
+}
+
 body {
   margin: 0;
   display: flex;
