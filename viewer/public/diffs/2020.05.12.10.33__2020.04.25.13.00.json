@@ -1,0 +1,112 @@
+[
+  {
+    "file": "UdonNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "For\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 110,
+        "lineNum2": 110
+      },
+      {
+        "text": "Get_Variable\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 111,
+        "lineNum2": 111
+      },
+      {
+        "text": "Set_Variable\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 112,
+        "lineNum2": 112
+      },
+      {
+        "text": "SubGraph\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 113
+      },
+      {
+        "text": "Comment\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 113,
+        "lineNum2": 114
+      },
+      {
+        "text": "Type_UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 114,
+        "lineNum2": 115
+      },
+      {
+        "text": "Type_SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 115,
+        "lineNum2": 116
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3NodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_m_ReflectLayers__UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 360,
+        "lineNum2": 360
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__set_m_ReflectLayers__UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 361,
+        "lineNum2": 361
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__OnWillRenderObject__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 362,
+        "lineNum2": 362
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__CameraPostRender__UnityEngineCamera__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 363
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_enabled__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 363,
+        "lineNum2": 364
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__set_enabled__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 364,
+        "lineNum2": 365
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 365,
+        "lineNum2": 366
+      }
+    ],
+    "type": "modified"
+  }
+]

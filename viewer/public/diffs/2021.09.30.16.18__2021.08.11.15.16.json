@@ -1,0 +1,112 @@
+[
+  {
+    "file": "UnityEngineUIDropdownNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineUIDropdown.__get_options__SystemCollectionsGenericListUnityEngineUIDropdownOptionData\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 71,
+        "lineNum2": 71
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_spriteState__UnityEngineUISpriteState\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 72,
+        "lineNum2": 72
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_targetGraphic__UnityEngineUIGraphic\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 73,
+        "lineNum2": 73
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_template__UnityEngineRectTransform\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 74
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 74,
+        "lineNum2": 75
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_transition__UnityEngineUISelectableTransition\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 75,
+        "lineNum2": 76
+      },
+      {
+        "text": "UnityEngineUIDropdown.__get_value__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 76,
+        "lineNum2": 77
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_options__SystemCollectionsGenericListUnityEngineUIDropdownOptionData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 92,
+        "lineNum2": 93
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_spriteState__UnityEngineUISpriteState__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 93,
+        "lineNum2": 94
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_targetGraphic__UnityEngineUIGraphic__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 94,
+        "lineNum2": 95
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_template__UnityEngineRectTransform__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 96
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_transition__UnityEngineUISelectableTransition__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 95,
+        "lineNum2": 97
+      },
+      {
+        "text": "UnityEngineUIDropdown.__set_value__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 96,
+        "lineNum2": 98
+      },
+      {
+        "text": "Variable_UnityEngineUIDropdown\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 97,
+        "lineNum2": 99
+      }
+    ],
+    "type": "modified"
+  }
+]

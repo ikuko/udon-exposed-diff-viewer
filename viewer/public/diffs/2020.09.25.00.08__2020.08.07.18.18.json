@@ -1,0 +1,6277 @@
+[
+  {
+    "file": "UdonTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_UnityEngineWheelHit\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 703,
+        "lineNum2": 703
+      },
+      {
+        "text": "Type_UnityEngineWheelHitArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 704,
+        "lineNum2": 704
+      },
+      {
+        "text": "Type_UnityEngineJointSuspension2DArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 705,
+        "lineNum2": 705
+      },
+      {
+        "text": "Type_UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 706,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 707,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 708,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 709,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 710,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTexture2DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 711,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTexture3D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 712,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineTexture3DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 713,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineRenderTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 714,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineVRTextureUsage\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 715,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 716,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 717,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemCollectionsGenericListUnityEngineCustomRenderTextureUpdateZone\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 718,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTextureUpdateZoneArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 719,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTextureInitializationSource\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 720,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTextureUpdateMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 721,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTextureUpdateZoneSpace\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 722,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 723,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineCustomRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 724,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemCollectionsGenericIEnumerableSystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 725,
+        "lineNum2": 706
+      },
+      {
+        "text": "Type_SystemStringComparison\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 726,
+        "lineNum2": 707
+      },
+      {
+        "text": "Type_SystemCharArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 727,
+        "lineNum2": 708
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEngineCustomRenderTextureArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__ctor__SystemInt32__UnityEngineCustomRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__Set__SystemInt32_UnityEngineCustomRenderTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__Get__SystemInt32__UnityEngineCustomRenderTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTextureArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineCustomRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineCustomRenderTextureNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineCustomRenderTexture.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__ClearUpdateZones__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_material__UnityEngineMaterial\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_material__UnityEngineMaterial__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_initializationMaterial__UnityEngineMaterial\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_initializationMaterial__UnityEngineMaterial__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_initializationTexture__UnityEngineTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_initializationTexture__UnityEngineTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__GetUpdateZones__SystemCollectionsGenericListUnityEngineCustomRenderTextureUpdateZone__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__SetUpdateZones__UnityEngineCustomRenderTextureUpdateZoneArray__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_initializationSource__UnityEngineCustomRenderTextureInitializationSource\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_initializationSource__UnityEngineCustomRenderTextureInitializationSource__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_initializationColor__UnityEngineColor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_initializationColor__UnityEngineColor__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_updateMode__UnityEngineCustomRenderTextureUpdateMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_updateMode__UnityEngineCustomRenderTextureUpdateMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_initializationMode__UnityEngineCustomRenderTextureUpdateMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_initializationMode__UnityEngineCustomRenderTextureUpdateMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_updateZoneSpace__UnityEngineCustomRenderTextureUpdateZoneSpace\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_updateZoneSpace__UnityEngineCustomRenderTextureUpdateZoneSpace__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_shaderPass__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_shaderPass__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_cubemapFaceMask__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_cubemapFaceMask__SystemUInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_doubleBuffered__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_doubleBuffered__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_wrapUpdateZones__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_wrapUpdateZones__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_width__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_width__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_height__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_height__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_dimension__UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_dimension__UnityEngineRenderingTextureDimension__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_useMipMap__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_useMipMap__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_sRGB__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_format__UnityEngineRenderTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_format__UnityEngineRenderTextureFormat__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 42,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_vrUsage__UnityEngineVRTextureUsage\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 43,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_vrUsage__UnityEngineVRTextureUsage__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 44,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_autoGenerateMips__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_autoGenerateMips__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 46,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_volumeDepth__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 47,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_volumeDepth__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_bindTextureMS__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_bindTextureMS__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_enableRandomWrite__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 51,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_enableRandomWrite__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_useDynamicScale__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 53,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_useDynamicScale__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 54,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_isPowerOfTwo__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 55,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_isPowerOfTwo__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 56,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_colorBuffer__UnityEngineRenderBuffer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 57,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_depthBuffer__UnityEngineRenderBuffer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 58,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__DiscardContents__SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 59,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__MarkRestoreExpected__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 60,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__DiscardContents__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 61,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__ResolveAntiAliasedSurface__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 62,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__ResolveAntiAliasedSurface__UnityEngineRenderTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 63,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__Release__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 64,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__IsCreated__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 65,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__GenerateMips__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 66,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__ConvertToEquirect__UnityEngineRenderTexture_UnityEngineCameraMonoOrStereoscopicEye__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 67,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_depth__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 68,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_depth__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 69,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_descriptor__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 70,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_descriptor__UnityEngineRenderTextureDescriptor__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 71,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_isReadable__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 72,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_wrapMode__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 73,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_wrapMode__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 74,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_wrapModeU__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 75,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 76,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_wrapModeV__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 77,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 78,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_wrapModeW__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 79,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 80,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_filterMode__UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 81,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_filterMode__UnityEngineFilterMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 82,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_anisoLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 83,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_anisoLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 84,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_mipMapBias__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 85,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_mipMapBias__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 86,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_texelSize__UnityEngineVector2\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 87,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_updateCount__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 88,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__IncrementUpdateCount__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 89,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 90,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 91,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 92,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 93,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 94,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 95,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineCustomRenderTexture.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 96,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineCustomRenderTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 97,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 98,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineRenderTextureArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineRenderTextureArray.__ctor__SystemInt32__UnityEngineRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__Set__SystemInt32_UnityEngineRenderTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__Get__SystemInt32__UnityEngineRenderTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineRenderTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineRenderTextureNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineRenderTexture.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_width__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_width__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_height__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_height__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_dimension__UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_dimension__UnityEngineRenderingTextureDimension__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_useMipMap__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_useMipMap__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_sRGB__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_format__UnityEngineRenderTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_format__UnityEngineRenderTextureFormat__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_vrUsage__UnityEngineVRTextureUsage\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_vrUsage__UnityEngineVRTextureUsage__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_autoGenerateMips__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_autoGenerateMips__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_volumeDepth__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_volumeDepth__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_bindTextureMS__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_bindTextureMS__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_enableRandomWrite__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_enableRandomWrite__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_useDynamicScale__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_useDynamicScale__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_isPowerOfTwo__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_isPowerOfTwo__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_colorBuffer__UnityEngineRenderBuffer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_depthBuffer__UnityEngineRenderBuffer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__DiscardContents__SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__MarkRestoreExpected__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__DiscardContents__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__ResolveAntiAliasedSurface__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__ResolveAntiAliasedSurface__UnityEngineRenderTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__Release__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__IsCreated__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__GenerateMips__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__ConvertToEquirect__UnityEngineRenderTexture_UnityEngineCameraMonoOrStereoscopicEye__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__SupportsStencil__UnityEngineRenderTexture__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_depth__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_depth__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 42,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_descriptor__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 43,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_descriptor__UnityEngineRenderTextureDescriptor__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 44,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_isReadable__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_wrapMode__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 46,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_wrapMode__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 47,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_wrapModeU__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_wrapModeV__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 51,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_wrapModeW__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 53,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_filterMode__UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 54,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_filterMode__UnityEngineFilterMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 55,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_anisoLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 56,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_anisoLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 57,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_mipMapBias__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 58,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_mipMapBias__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 59,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_texelSize__UnityEngineVector2\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 60,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_updateCount__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 61,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__IncrementUpdateCount__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 62,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 63,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 64,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 65,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 66,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 67,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 68,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTexture.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 69,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineRenderTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 70,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 71,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTexture2DArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTexture2DArray.__ctor__SystemInt32__UnityEngineTexture2DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__Set__SystemInt32_UnityEngineTexture2D__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__Get__SystemInt32__UnityEngineTexture2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2DArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTexture2DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTexture2DNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTexture2D.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_mipmapCount__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_format__UnityEngineTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_whiteTexture__UnityEngineTexture2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_blackTexture__UnityEngineTexture2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__Compress__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_isReadable__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_streamingMipmaps__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_streamingMipmapsPriority__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_requestedMipmapLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_requestedMipmapLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_desiredMipmapLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_loadingMipmapLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_loadedMipmapLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__ClearRequestedMipmapLevel__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels__SystemInt32_SystemInt32_SystemInt32_SystemInt32_SystemInt32__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels__SystemInt32_SystemInt32_SystemInt32_SystemInt32__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels32__SystemInt32__UnityEngineColor32Array\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels32__UnityEngineColor32Array\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixel__SystemInt32_SystemInt32_UnityEngineColor__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels__SystemInt32_SystemInt32_SystemInt32_SystemInt32_UnityEngineColorArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels__SystemInt32_SystemInt32_SystemInt32_SystemInt32_UnityEngineColorArray__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels__UnityEngineColorArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels__UnityEngineColorArray__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixel__SystemInt32_SystemInt32__UnityEngineColor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixelBilinear__SystemSingle_SystemSingle__UnityEngineColor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__LoadRawTextureData__SystemIntPtr_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__LoadRawTextureData__SystemByteArray__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__Apply__SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__Apply__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__Apply__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__ReadPixels__UnityEngineRect_SystemInt32_SystemInt32_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__ReadPixels__UnityEngineRect_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels32__UnityEngineColor32Array_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels32__UnityEngineColor32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels32__SystemInt32_SystemInt32_SystemInt32_SystemInt32_UnityEngineColor32Array_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__SetPixels32__SystemInt32_SystemInt32_SystemInt32_SystemInt32_UnityEngineColor32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels__SystemInt32__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetPixels__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_width__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 42,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_width__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 43,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_height__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 44,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_height__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_dimension__UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 46,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_dimension__UnityEngineRenderingTextureDimension__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 47,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_wrapMode__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_wrapMode__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_wrapModeU__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 51,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_wrapModeV__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 53,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_wrapModeW__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 54,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 55,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_filterMode__UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 56,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_filterMode__UnityEngineFilterMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 57,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_anisoLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 58,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_anisoLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 59,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_mipMapBias__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 60,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_mipMapBias__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 61,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_texelSize__UnityEngineVector2\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 62,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_updateCount__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 63,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__IncrementUpdateCount__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 64,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 65,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 66,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 67,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 68,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 69,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 70,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture2D.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 71,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTexture2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 72,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 73,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTexture3DArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTexture3DArray.__ctor__SystemInt32__UnityEngineTexture3DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__Set__SystemInt32_UnityEngineTexture3D__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__Get__SystemInt32__UnityEngineTexture3D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3DArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTexture3DArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTexture3DNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTexture3D.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_depth__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_format__UnityEngineTextureFormat\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_isReadable__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetPixels__SystemInt32__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetPixels__UnityEngineColorArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetPixels32__SystemInt32__UnityEngineColor32Array\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetPixels32__UnityEngineColor32Array\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__SetPixels__UnityEngineColorArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__SetPixels__UnityEngineColorArray__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__SetPixels32__UnityEngineColor32Array_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__SetPixels32__UnityEngineColor32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__Apply__SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__Apply__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__Apply__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_width__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_width__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_height__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_height__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_dimension__UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_dimension__UnityEngineRenderingTextureDimension__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_wrapMode__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_wrapMode__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_wrapModeU__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_wrapModeV__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_wrapModeW__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_filterMode__UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_filterMode__UnityEngineFilterMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_anisoLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_anisoLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_mipMapBias__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_mipMapBias__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_texelSize__UnityEngineVector2\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_updateCount__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__IncrementUpdateCount__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 42,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 43,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 44,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 46,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture3D.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 47,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTexture3D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTextureArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTextureArray.__ctor__SystemInt32__UnityEngineTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__Set__SystemInt32_UnityEngineTexture__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__Get__SystemInt32__UnityEngineTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTextureArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTextureArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UnityEngineTextureNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineTexture.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_width__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_width__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_height__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_height__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_dimension__UnityEngineRenderingTextureDimension\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_dimension__UnityEngineRenderingTextureDimension__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_isReadable__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_wrapMode__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_wrapMode__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_wrapModeU__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_wrapModeU__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_wrapModeV__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_wrapModeV__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_wrapModeW__UnityEngineTextureWrapMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_wrapModeW__UnityEngineTextureWrapMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_filterMode__UnityEngineFilterMode\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_filterMode__UnityEngineFilterMode__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_anisoLevel__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_anisoLevel__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_mipMapBias__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_mipMapBias__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_texelSize__UnityEngineVector2\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_updateCount__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__IncrementUpdateCount__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineTexture.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_UnityEngineTexture\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_OnSpawn\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 9
+      },
+      {
+        "text": "Event_OnStationEntered\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "Event_OnStationExited\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "Event_OnPlayerCollisionEnter\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerCollisionStay\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerCollisionExit\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerTriggerEnter\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerTriggerStay\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerTriggerExit\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerParticleCollision\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoEnd\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 12
+      },
+      {
+        "text": "Event_OnVideoPause\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 13
+      },
+      {
+        "text": "Event_OnVideoPlay\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 14
+      },
+      {
+        "text": "Event_OnVideoStart\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 15
+      },
+      {
+        "text": "Event_OnDeserialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 16
+      },
+      {
+        "text": "Event_OnPreSerialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 20,
+        "lineNum2": 17
+      },
+      {
+        "text": "Event_OnVideoReady\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoError\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoStart\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoLoop\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoEnd\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3ComponentsVRCUrlInputFieldNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 1,
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnEndDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnPointerDown__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__GetUrl__VRCSDKBaseVRCUrl\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__SetUrl__VRCSDKBaseVRCUrl__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnUpdateSelected__UnityEngineEventSystemsBaseEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__ForceLabelUpdate__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__Rebuild__UnityEngineUICanvasUpdate__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_preferredHeight__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 24,
+        "lineNum2": 23
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_flexibleHeight__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 25,
+        "lineNum2": 24
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_layoutPriority__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 26,
+        "lineNum2": 25
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__GetUrl__VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__SetUrl__VRCSDKBaseVRCUrl__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_shouldHideMobileInput__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 29,
+        "lineNum2": 26
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_shouldHideMobileInput__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 30,
+        "lineNum2": 27
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_isFocused__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 31,
+        "lineNum2": 28
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_selectionColor__UnityEngineColor__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 45,
+        "lineNum2": 42
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_characterLimit__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 46,
+        "lineNum2": 43
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_characterLimit__SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 47,
+        "lineNum2": 44
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_contentType__VRCSDK3ComponentsVRCUrlInputFieldContentType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_contentType__VRCSDK3ComponentsVRCUrlInputFieldContentType__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_lineType__VRCSDK3ComponentsVRCUrlInputFieldLineType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_lineType__VRCSDK3ComponentsVRCUrlInputFieldLineType__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 51,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_inputType__VRCSDK3ComponentsVRCUrlInputFieldInputType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_inputType__VRCSDK3ComponentsVRCUrlInputFieldInputType__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 53,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_characterValidation__VRCSDK3ComponentsVRCUrlInputFieldCharacterValidation\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 54,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_characterValidation__VRCSDK3ComponentsVRCUrlInputFieldCharacterValidation__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 55,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_contentType__UnityEngineUIInputFieldContentType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 45
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_contentType__UnityEngineUIInputFieldContentType__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 46
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_lineType__UnityEngineUIInputFieldLineType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 47
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_lineType__UnityEngineUIInputFieldLineType__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 48
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_inputType__UnityEngineUIInputFieldInputType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 49
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_inputType__UnityEngineUIInputFieldInputType__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 50
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_characterValidation__UnityEngineUIInputFieldCharacterValidation\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 51
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_characterValidation__UnityEngineUIInputFieldCharacterValidation__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 52
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_readOnly__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 56,
+        "lineNum2": 53
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_readOnly__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 57,
+        "lineNum2": 54
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_multiLine__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 58,
+        "lineNum2": 55
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_asteriskChar__SystemChar\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 59,
+        "lineNum2": 56
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_asteriskChar__SystemChar__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 60,
+        "lineNum2": 57
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_wasCanceled__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 61,
+        "lineNum2": 58
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_caretPosition__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 59
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_caretPosition__SystemInt32__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 60
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_selectionAnchorPosition__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 61
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_selectionAnchorPosition__SystemInt32__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 62
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_selectionFocusPosition__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 63
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_selectionFocusPosition__SystemInt32__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 64
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnBeginDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 62,
+        "lineNum2": 65
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 66
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnEndDrag__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 67
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__OnPointerDown__UnityEngineEventSystemsPointerEventData__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 68
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_navigation__UnityEngineUINavigation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 63,
+        "lineNum2": 69
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__set_navigation__UnityEngineUINavigation__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 64,
+        "lineNum2": 70
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCUrlInputField.__get_transition__UnityEngineUISelectableTransition\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 65,
+        "lineNum2": 71
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__ctor__SystemInt32__VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__Set__SystemInt32_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__Get__SystemInt32__VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_Loop__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__set_Loop__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_IsPlaying__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_IsReady__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__LoadURL__VRCSDKBaseVRCUrl__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__PlayURL__VRCSDKBaseVRCUrl__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Play__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Pause__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Stop__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__SetTime__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetTime__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetDuration__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_enabled__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__set_enabled__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_gameObject__UnityEngineGameObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponent__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponent__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponent__SystemString__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInChildren__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInChildren__SystemBoolean__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInChildren__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__SystemBoolean__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__SystemBoolean_ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInChildren__ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInParent__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentInParent__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInParent__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInParent__SystemBoolean__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInParent__SystemBoolean_ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponentsInParent__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponents__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponents__ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 42,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetComponents__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 43,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 44,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 45,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 46,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 47,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 50,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 51,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCCustomActionArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__ctor__SystemInt32__VRCSDKBaseVRCCustomActionArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__Set__SystemInt32_VRCSDKBaseVRCCustomAction__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__Get__SystemInt32__VRCSDKBaseVRCCustomAction\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomActionArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCCustomActionArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCCustomActionNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__Execute__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__get_enabled__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__set_enabled__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__get_gameObject__UnityEngineGameObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponent__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponent__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponent__SystemString__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInChildren__SystemType_SystemBoolean__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInChildren__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInChildren__SystemBoolean__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInChildren__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__SystemType_SystemBoolean__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__SystemBoolean__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__SystemBoolean_ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInChildren__ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInParent__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentInParent__T\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInParent__SystemType_SystemBoolean__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInParent__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInParent__SystemBoolean__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInParent__SystemBoolean_ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponentsInParent__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponents__SystemType__UnityEngineComponentArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponents__SystemType_SystemCollectionsGenericListUnityEngineComponent__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponents__ListT__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetComponents__TArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCCustomAction.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCCustomAction\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCPlayerApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 12,
+        "lineNum2": 12
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBoneRotation__UnityEngineHumanBodyBones__UnityEngineQuaternion\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 13,
+        "lineNum2": 13
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPickupInHand__VRCSDKBaseVRC_PickupPickupHand__VRCSDKBaseVRC_Pickup\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 14,
+        "lineNum2": 14
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__PlayHapticEventInHand__VRCSDKBaseVRC_PickupPickupHand_SystemSingle_SystemSingle_SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 15
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion_VRCSDKBaseVRC_SceneDescriptorSpawnOrientation__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 16
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion_VRCSDKBaseVRC_SceneDescriptorSpawnOrientation_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 17
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDKBaseVRCUrlNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCUrl.__get_Empty__VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__ctor____VRCSDKBaseVRCUrl\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__Get__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__ToString__SystemString\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 6
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 7
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_UnityEngineQuaternion\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "Type_VRCSDKBaseVRC_Pickup\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "Type_VRCSDKBaseVRC_PickupPickupHand\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 12,
+        "lineNum2": 12
+      },
+      {
+        "text": "Type_SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRC_SceneDescriptorSpawnOrientation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 14,
+        "lineNum2": 13
+      },
+      {
+        "text": "Type_SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 14
+      },
+      {
+        "text": "Type_SystemCollectionsGenericListSystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 15
+      },
+      {
+        "text": "Type_SystemSingle\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 16
+      },
+      {
+        "text": "Type_UnityEngineTransform\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 17
+      },
+      {
+        "text": "Type_VRCSDKBaseIVRC_Destructible\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 18
+      },
+      {
+        "text": "Type_SystemObject\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 19
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineComponent\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 36,
+        "lineNum2": 36
+      },
+      {
+        "text": "Type_UnityEngineComponentArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 37,
+        "lineNum2": 37
+      },
+      {
+        "text": "Type_SystemCollectionsGenericListUnityEngineComponent\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 38,
+        "lineNum2": 38
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCCustomAction\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCCustomActionArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCAvatarPedestal\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 41,
+        "lineNum2": 39
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCAvatarPedestalArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 42,
+        "lineNum2": 40
+      },
+      {
+        "text": "Type_UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 43,
+        "lineNum2": 41
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineRuntimeAnimatorController\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 55,
+        "lineNum2": 53
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCStation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 56,
+        "lineNum2": 54
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCStationArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 57,
+        "lineNum2": 55
+      },
+      {
+        "text": "Type_UnityEngineEventSystemsPointerEventData\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 58,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineEventSystemsBaseEventData\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 59,
+        "lineNum2": 56
+      },
+      {
+        "text": "Type_UnityEngineUICanvasUpdate\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 60,
+        "lineNum2": 57
+      },
+      {
+        "text": "Type_UnityEngineEventSystemsPointerEventData\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 58
+      },
+      {
+        "text": "Type_UnityEngineUIText\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 61,
+        "lineNum2": 59
+      },
+      {
+        "text": "Type_UnityEngineUIGraphic\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 62,
+        "lineNum2": 60
+      },
+      {
+        "text": "Type_UnityEngineColor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 63,
+        "lineNum2": 61
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldContentType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 64,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldLineType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 65,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldInputType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 66,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldCharacterValidation\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 67,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineUIInputFieldContentType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 62
+      },
+      {
+        "text": "Type_UnityEngineUIInputFieldLineType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 63
+      },
+      {
+        "text": "Type_UnityEngineUIInputFieldInputType\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 64
+      },
+      {
+        "text": "Type_UnityEngineUIInputFieldCharacterValidation\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 65
+      },
+      {
+        "text": "Type_SystemChar\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 68,
+        "lineNum2": 66
+      },
+      {
+        "text": "Type_UnityEngineVector2\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 69,
+        "lineNum2": 67
+      },
+      {
+        "text": "Type_UnityEngineUINavigation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 70,
+        "lineNum2": 68
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineEventSystemsAxisEventData\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 78,
+        "lineNum2": 76
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputField\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 79,
+        "lineNum2": 77
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCUrlInputFieldArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 80,
+        "lineNum2": 78
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVideoVideoError\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 81,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 82,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3VideoComponentsBaseBaseVRCVideoPlayerArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 83,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCUdonCommonInterfacesNetworkEventTarget\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 84,
+        "lineNum2": 79
+      },
+      {
+        "text": "Type_VRCUdonCommonInterfacesIUdonEventReceiver\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 85,
+        "lineNum2": 80
+      },
+      {
+        "text": "Type_VRCUdonCommonInterfacesIUdonEventReceiverArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 86,
+        "lineNum2": 81
+      }
+    ],
+    "type": "modified"
+  }
+]

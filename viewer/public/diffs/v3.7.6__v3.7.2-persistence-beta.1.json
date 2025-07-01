@@ -1,0 +1,964 @@
+[
+  {
+    "file": "TMProHorizontalAlignmentOptionsNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProHorizontalAlignmentOptions.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProHorizontalAlignmentOptions.__get_Center__TMProHorizontalAlignmentOptions\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "TMProTextAlignmentOptionsNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProTextAlignmentOptions.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProTextAlignmentOptions.__get_BaselineFlush__TMProTextAlignmentOptions\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "TMProTextOverflowModesNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProTextOverflowModes.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProTextOverflowModes.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProTextOverflowModes.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProTextOverflowModes.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProTextOverflowModes.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProTextOverflowModes.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProTextOverflowModes.__get_Ellipsis__TMProTextOverflowModes\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "TMProTextRenderFlagsNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProTextRenderFlags.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProTextRenderFlags.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProTextRenderFlags.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProTextRenderFlags.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProTextRenderFlags.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProTextRenderFlags.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProTextRenderFlags.__get_DontRender__TMProTextRenderFlags\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "TMProVertexSortingOrderNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProVertexSortingOrder.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProVertexSortingOrder.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProVertexSortingOrder.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProVertexSortingOrder.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProVertexSortingOrder.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProVertexSortingOrder.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProVertexSortingOrder.__get_Normal__TMProVertexSortingOrder\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "TMProVerticalAlignmentOptionsNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "TMProVerticalAlignmentOptions.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__HasFlag__SystemEnum__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "TMProVerticalAlignmentOptions.__get_Baseline__TMProVerticalAlignmentOptions\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UdonTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemUInt64\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 154,
+        "lineNum2": 154
+      },
+      {
+        "text": "Type_SystemUInt64Array\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 155,
+        "lineNum2": 155
+      },
+      {
+        "text": "Type_SystemUInt64Ref\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 156,
+        "lineNum2": 156
+      },
+      {
+        "text": "Type_TMProHorizontalAlignmentOptions\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 157,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProHorizontalAlignmentOptionsArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 158,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProMaterialReferenceArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 159,
+        "lineNum2": 157
+      },
+      {
+        "text": "Type_TMProTMP_CharacterInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 160,
+        "lineNum2": 158
+      },
+      {
+        "text": "Type_TMProTMP_Dropdown\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 161,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_DropdownArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 162,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_DropdownOptionData\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 163,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_DropdownOptionDataArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 164,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_InputField\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 165,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_InputFieldArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 166,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_LineInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 167,
+        "lineNum2": 159
+      },
+      {
+        "text": "Type_TMProTMP_LinkInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 168,
+        "lineNum2": 160
+      },
+      {
+        "text": "Type_TMProTMP_MeshInfo\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 169,
+        "lineNum2": 161
+      },
+      {
+        "text": "Type_TMProTMP_MeshInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 170,
+        "lineNum2": 162
+      },
+      {
+        "text": "Type_TMProTMP_PageInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 171,
+        "lineNum2": 163
+      },
+      {
+        "text": "Type_TMProTMP_Text\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 172,
+        "lineNum2": 164
+      },
+      {
+        "text": "Type_TMProTMP_TextArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 173,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTMP_TextInfo\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 174,
+        "lineNum2": 165
+      },
+      {
+        "text": "Type_TMProTMP_TextInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 175,
+        "lineNum2": 166
+      },
+      {
+        "text": "Type_TMProTMP_WordInfoArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 176,
+        "lineNum2": 167
+      },
+      {
+        "text": "Type_TMProTextAlignmentOptions\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 177,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTextAlignmentOptionsArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 178,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTextMeshPro\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 179,
+        "lineNum2": 168
+      },
+      {
+        "text": "Type_TMProTextMeshProArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 180,
+        "lineNum2": 169
+      },
+      {
+        "text": "Type_TMProTextMeshProUGUI\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 181,
+        "lineNum2": 170
+      },
+      {
+        "text": "Type_TMProTextMeshProUGUIArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 182,
+        "lineNum2": 171
+      },
+      {
+        "text": "Type_TMProTextOverflowModes\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 183,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTextOverflowModesArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 184,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTextRenderFlags\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 185,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProTextRenderFlagsArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 186,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProVertexSortingOrder\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 187,
+        "lineNum2": 172
+      },
+      {
+        "text": "Type_TMProVertexSortingOrderArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 188,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProVerticalAlignmentOptions\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 189,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_TMProVerticalAlignmentOptionsArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 190,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityAINavigationCollectObjects\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 191,
+        "lineNum2": 173
+      },
+      {
+        "text": "Type_UnityAINavigationNavMeshLink\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 192,
+        "lineNum2": 174
+      },
+      {
+        "text": "Type_UnityAINavigationNavMeshLinkArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 193,
+        "lineNum2": 175
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCEconomyStoreNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyStore.__OpenGroupPage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "VRCEconomyStore.__OpenGroupStorePage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 12,
+        "lineNum2": 12
+      },
+      {
+        "text": "VRCEconomyStore.__OpenListing__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 13,
+        "lineNum2": 13
+      },
+      {
+        "text": "VRCEconomyStore.__OpenWorldStorePage__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__SendProductEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCEconomyIProduct__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 14
+      },
+      {
+        "text": "VRCEconomyStore.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 15
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_OnStationExited\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 46,
+        "lineNum2": 46
+      },
+      {
+        "text": "Event_OnStringLoadError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 47,
+        "lineNum2": 47
+      },
+      {
+        "text": "Event_OnStringLoadSuccess\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 48,
+        "lineNum2": 48
+      },
+      {
+        "text": "Event_OnVRCPlusMassGift\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 49,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnVideoEnd\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 50,
+        "lineNum2": 49
+      },
+      {
+        "text": "Event_OnVideoError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 51,
+        "lineNum2": 50
+      },
+      {
+        "text": "Event_OnVideoLoop\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 52,
+        "lineNum2": 51
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemUInt32Ref\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 41,
+        "lineNum2": 41
+      },
+      {
+        "text": "Type_SystemUInt64\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 42,
+        "lineNum2": 42
+      },
+      {
+        "text": "Type_SystemUInt64Ref\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 43,
+        "lineNum2": 43
+      },
+      {
+        "text": "Type_TMProHorizontalAlignmentOptions\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 44
+      },
+      {
+        "text": "Type_TMProHorizontalAlignmentOptionsArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 45
+      },
+      {
+        "text": "Type_TMProTMP_Dropdown\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 44,
+        "lineNum2": 46
+      },
+      {
+        "text": "Type_TMProTMP_DropdownArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 47
+      },
+      {
+        "text": "Type_TMProTMP_DropdownOptionData\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 48
+      },
+      {
+        "text": "Type_TMProTMP_DropdownOptionDataArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 45,
+        "lineNum2": 49
+      },
+      {
+        "text": "Type_TMProTMP_InputField\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 50
+      },
+      {
+        "text": "Type_TMProTMP_InputFieldArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 51
+      },
+      {
+        "text": "Type_TMProTMP_Text\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 52
+      },
+      {
+        "text": "Type_TMProTMP_TextArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 53
+      },
+      {
+        "text": "Type_TMProTextAlignmentOptions\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 54
+      },
+      {
+        "text": "Type_TMProTextAlignmentOptionsArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 55
+      },
+      {
+        "text": "Type_TMProTextOverflowModes\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 56
+      },
+      {
+        "text": "Type_TMProTextOverflowModesArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 57
+      },
+      {
+        "text": "Type_TMProTextRenderFlags\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 58
+      },
+      {
+        "text": "Type_TMProTextRenderFlagsArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 59
+      },
+      {
+        "text": "Type_TMProVertexSortingOrder\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 60
+      },
+      {
+        "text": "Type_TMProVertexSortingOrderArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 61
+      },
+      {
+        "text": "Type_TMProVerticalAlignmentOptions\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 62
+      },
+      {
+        "text": "Type_TMProVerticalAlignmentOptionsArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 63
+      },
+      {
+        "text": "Type_UnityEngineAnimator\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 46,
+        "lineNum2": 64
+      },
+      {
+        "text": "Type_UnityEngineCamera\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 47,
+        "lineNum2": 65
+      },
+      {
+        "text": "Type_UnityEngineColor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 48,
+        "lineNum2": 66
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineRenderingLightProbeUsage\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 81,
+        "lineNum2": 99
+      },
+      {
+        "text": "Type_UnityEngineRenderingShadowCastingMode\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 82,
+        "lineNum2": 100
+      },
+      {
+        "text": "Type_UnityEngineRuntimeAnimatorController\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 83,
+        "lineNum2": 101
+      },
+      {
+        "text": "Type_UnityEngineSprite\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 102
+      },
+      {
+        "text": "Type_UnityEngineSpriteArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 84,
+        "lineNum2": 103
+      },
+      {
+        "text": "Type_UnityEngineTexture\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 85,
+        "lineNum2": 104
+      },
+      {
+        "text": "Type_UnityEngineTexture2D\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 86,
+        "lineNum2": 105
+      }
+    ],
+    "type": "modified"
+  }
+]

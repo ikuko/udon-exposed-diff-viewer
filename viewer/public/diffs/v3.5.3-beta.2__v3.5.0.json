@@ -1,0 +1,2763 @@
+[
+  {
+    "file": "SystemBitConverterNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "SystemBitConverter.__DoubleToInt64Bits__SystemDouble__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemBoolean__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemChar__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemDouble__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemInt16__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemInt32__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemInt64__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemSingle__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemUInt16__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemUInt32__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__GetBytes__SystemUInt64__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__Int32BitsToSingle__SystemInt32__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__Int64BitsToDouble__SystemInt64__SystemDouble\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__SingleToInt32Bits__SystemSingle__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToBoolean__SystemByteArray_SystemInt32__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToChar__SystemByteArray_SystemInt32__SystemChar\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToDouble__SystemByteArray_SystemInt32__SystemDouble\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToInt16__SystemByteArray_SystemInt32__SystemInt16\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToInt32__SystemByteArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToInt64__SystemByteArray_SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToSingle__SystemByteArray_SystemInt32__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToUInt16__SystemByteArray_SystemInt32__SystemUInt16\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToUInt32__SystemByteArray_SystemInt32__SystemUInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__ToUInt64__SystemByteArray_SystemInt32__SystemUInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBitConverter.__get_IsLittleEndian__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "SystemBufferNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "SystemBuffer.__BlockCopy__SystemArray_SystemInt32_SystemArray_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBuffer.__ByteLength__SystemArray__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBuffer.__GetByte__SystemArray_SystemInt32__SystemByte\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemBuffer.__SetByte__SystemArray_SystemInt32_SystemByte__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "SystemStringNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "SystemString.__Concat__SystemString_SystemString_SystemString_SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 24,
+        "lineNum2": 24
+      },
+      {
+        "text": "SystemString.__Concat__SystemString_SystemString_SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 25,
+        "lineNum2": 25
+      },
+      {
+        "text": "SystemString.__Concat__SystemString_SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 26,
+        "lineNum2": 26
+      },
+      {
+        "text": "SystemString.__Contains__SystemChar_SystemStringComparison__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Contains__SystemChar__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Contains__SystemString_SystemStringComparison__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Contains__SystemString__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 30,
+        "lineNum2": 27
+      },
+      {
+        "text": "SystemString.__CopyTo__SystemInt32_SystemCharArray_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 31,
+        "lineNum2": 28
+      },
+      {
+        "text": "SystemString.__Copy__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 32,
+        "lineNum2": 29
+      },
+      {
+        "text": "SystemString.__EndsWith__SystemChar__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__EndsWith__SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 34,
+        "lineNum2": 30
+      },
+      {
+        "text": "SystemString.__EndsWith__SystemString_SystemStringComparison__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 35,
+        "lineNum2": 31
+      },
+      {
+        "text": "SystemString.__EndsWith__SystemString__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 36,
+        "lineNum2": 32
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Format__SystemString_SystemObject__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 49,
+        "lineNum2": 45
+      },
+      {
+        "text": "SystemString.__GetEnumerator__SystemCharEnumerator\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 50,
+        "lineNum2": 46
+      },
+      {
+        "text": "SystemString.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 51,
+        "lineNum2": 47
+      },
+      {
+        "text": "SystemString.__GetHashCode__SystemStringComparison__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 53,
+        "lineNum2": 48
+      },
+      {
+        "text": "SystemString.__IndexOfAny__SystemCharArray_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 54,
+        "lineNum2": 49
+      },
+      {
+        "text": "SystemString.__IndexOfAny__SystemCharArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 55,
+        "lineNum2": 50
+      },
+      {
+        "text": "SystemString.__IndexOfAny__SystemCharArray__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 56,
+        "lineNum2": 51
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemChar_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 57,
+        "lineNum2": 52
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemChar_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 58,
+        "lineNum2": 53
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemChar_SystemStringComparison__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 59,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemChar__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 60,
+        "lineNum2": 54
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemString_SystemInt32_SystemInt32_SystemStringComparison__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 61,
+        "lineNum2": 55
+      },
+      {
+        "text": "SystemString.__IndexOf__SystemString_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 62,
+        "lineNum2": 56
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__IsNormalized__SystemTextNormalizationForm__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 71,
+        "lineNum2": 65
+      },
+      {
+        "text": "SystemString.__IsNullOrEmpty__SystemString__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 72,
+        "lineNum2": 66
+      },
+      {
+        "text": "SystemString.__IsNullOrWhiteSpace__SystemString__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 73,
+        "lineNum2": 67
+      },
+      {
+        "text": "SystemString.__Join__SystemChar_SystemObjectArray__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 74,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Join__SystemChar_SystemStringArray_SystemInt32_SystemInt32__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 75,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Join__SystemChar_SystemStringArray__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 76,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Join__SystemString_IEnumerableT__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 77,
+        "lineNum2": 68
+      },
+      {
+        "text": "SystemString.__Join__SystemString_SystemCollectionsGenericIEnumerableSystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 78,
+        "lineNum2": 69
+      },
+      {
+        "text": "SystemString.__Join__SystemString_SystemObjectArray__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 79,
+        "lineNum2": 70
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Remove__SystemInt32_SystemInt32__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 100,
+        "lineNum2": 91
+      },
+      {
+        "text": "SystemString.__Remove__SystemInt32__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 101,
+        "lineNum2": 92
+      },
+      {
+        "text": "SystemString.__Replace__SystemChar_SystemChar__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 102,
+        "lineNum2": 93
+      },
+      {
+        "text": "SystemString.__Replace__SystemString_SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 103,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Replace__SystemString_SystemString_SystemStringComparison__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 104,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Replace__SystemString_SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 105,
+        "lineNum2": 94
+      },
+      {
+        "text": "SystemString.__Split__SystemCharArray_SystemInt32_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 106,
+        "lineNum2": 95
+      },
+      {
+        "text": "SystemString.__Split__SystemCharArray_SystemInt32__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 107,
+        "lineNum2": 96
+      },
+      {
+        "text": "SystemString.__Split__SystemCharArray_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 108,
+        "lineNum2": 97
+      },
+      {
+        "text": "SystemString.__Split__SystemCharArray__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 109,
+        "lineNum2": 98
+      },
+      {
+        "text": "SystemString.__Split__SystemChar_SystemInt32_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 110,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Split__SystemChar_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 111,
+        "lineNum2": 99
+      },
+      {
+        "text": "SystemString.__Split__SystemStringArray_SystemInt32_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 112,
+        "lineNum2": 100
+      },
+      {
+        "text": "SystemString.__Split__SystemStringArray_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 113,
+        "lineNum2": 101
+      },
+      {
+        "text": "SystemString.__Split__SystemString_SystemInt32_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 114,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Split__SystemString_SystemStringSplitOptions__SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 115,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__StartsWith__SystemChar__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 116,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__StartsWith__SystemString_SystemBoolean_SystemGlobalizationCultureInfo__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 117,
+        "lineNum2": 102
+      },
+      {
+        "text": "SystemString.__StartsWith__SystemString_SystemStringComparison__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 118,
+        "lineNum2": 103
+      },
+      {
+        "text": "SystemString.__StartsWith__SystemString__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 119,
+        "lineNum2": 104
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__ToUpper__SystemGlobalizationCultureInfo__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 130,
+        "lineNum2": 115
+      },
+      {
+        "text": "SystemString.__ToUpper__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 131,
+        "lineNum2": 116
+      },
+      {
+        "text": "SystemString.__TrimEnd__SystemCharArray__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 132,
+        "lineNum2": 117
+      },
+      {
+        "text": "SystemString.__TrimEnd__SystemChar__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 133,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__TrimEnd__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 134,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__TrimStart__SystemCharArray__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 135,
+        "lineNum2": 118
+      },
+      {
+        "text": "SystemString.__TrimStart__SystemChar__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 136,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__TrimStart__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 137,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Trim__SystemCharArray__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 138,
+        "lineNum2": 119
+      },
+      {
+        "text": "SystemString.__Trim__SystemChar__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 139,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemString.__Trim__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 140,
+        "lineNum2": 120
+      },
+      {
+        "text": "SystemString.__ctor__SystemCharArray_SystemInt32_SystemInt32__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 141,
+        "lineNum2": 121
+      },
+      {
+        "text": "SystemString.__ctor__SystemCharArray__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 142,
+        "lineNum2": 122
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "SystemTextEncodingNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "SystemTextEncoding.__Convert__SystemTextEncoding_SystemTextEncoding_SystemByteArray_SystemInt32_SystemInt32__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__Convert__SystemTextEncoding_SystemTextEncoding_SystemByteArray__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetByteCount__SystemCharArray_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetByteCount__SystemCharArray__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetByteCount__SystemString_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetByteCount__SystemString__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemCharArray_SystemInt32_SystemInt32_SystemByteArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemCharArray_SystemInt32_SystemInt32__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemCharArray__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemString_SystemInt32_SystemInt32_SystemByteArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemString_SystemInt32_SystemInt32__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetBytes__SystemString__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetCharCount__SystemByteArray_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetCharCount__SystemByteArray__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetChars__SystemByteArray_SystemInt32_SystemInt32_SystemCharArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetChars__SystemByteArray_SystemInt32_SystemInt32__SystemCharArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetChars__SystemByteArray__SystemCharArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetMaxByteCount__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetMaxCharCount__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetPreamble__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetString__SystemByteArray_SystemInt32_SystemInt32__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetString__SystemByteArray__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__IsAlwaysNormalized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__IsAlwaysNormalized__SystemTextNormalizationForm__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_ASCII__SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_BigEndianUnicode__SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_BodyName__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_EncodingName__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_HeaderName__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_IsSingleByte__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_UTF32__SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_UTF8__SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_Unicode__SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "SystemTextEncoding.__get_WebName__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "UdonTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemStringArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 114,
+        "lineNum2": 114
+      },
+      {
+        "text": "Type_SystemStringComparison\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 115,
+        "lineNum2": 115
+      },
+      {
+        "text": "Type_SystemStringSplitOptions\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 116,
+        "lineNum2": 116
+      },
+      {
+        "text": "Type_SystemTextEncoding\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 117,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemTextNormalizationForm\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 118,
+        "lineNum2": 117
+      },
+      {
+        "text": "Type_SystemTimeSpan\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 119,
+        "lineNum2": 118
+      },
+      {
+        "text": "Type_SystemTimeSpanArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 120,
+        "lineNum2": 119
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEngineParticleSystemNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineParticleSystem.__get_externalForces__UnityEngineParticleSystemExternalForcesModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 74,
+        "lineNum2": 74
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_forceOverLifetime__UnityEngineParticleSystemForceOverLifetimeModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 75,
+        "lineNum2": 75
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_gameObject__UnityEngineGameObject\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 76,
+        "lineNum2": 76
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_has3DParticleRotations__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 77,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_hasNonUniformParticleSizes__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 78,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_inheritVelocity__UnityEngineParticleSystemInheritVelocityModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 79,
+        "lineNum2": 77
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_isEmitting__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 80,
+        "lineNum2": 78
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_isPaused__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 81,
+        "lineNum2": 79
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEnginePhysicsNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEnginePhysics.__get_AllLayers__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 148,
+        "lineNum2": 148
+      },
+      {
+        "text": "UnityEnginePhysics.__get_DefaultRaycastLayers__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 149,
+        "lineNum2": 149
+      },
+      {
+        "text": "UnityEnginePhysics.__get_IgnoreRaycastLayer__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 150,
+        "lineNum2": 150
+      },
+      {
+        "text": "UnityEnginePhysics.__get_bounceThreshold__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 151,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEnginePhysics.__get_defaultMaxAngularSpeed__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 152,
+        "lineNum2": 151
+      },
+      {
+        "text": "UnityEnginePhysics.__get_defaultPhysicsScene__UnityEnginePhysicsScene\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 153,
+        "lineNum2": 152
+      },
+      {
+        "text": "UnityEnginePhysics.__get_gravity__UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 154,
+        "lineNum2": 153
+      },
+      {
+        "text": "UnityEnginePhysics.__set_bounceThreshold__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 155,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEnginePhysics.__set_defaultMaxAngularSpeed__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 156,
+        "lineNum2": 154
+      },
+      {
+        "text": "UnityEnginePhysics.__set_gravity__UnityEngineVector3__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 157,
+        "lineNum2": 155
+      },
+      {
+        "text": "Variable_UnityEnginePhysics\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 158,
+        "lineNum2": 156
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEngineRenderTextureDescriptorNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__ctor__SystemInt32_SystemInt32_UnityEngineRenderTextureFormat_SystemInt32_SystemInt32_UnityEngineRenderTextureReadWrite__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__ctor__SystemInt32_SystemInt32_UnityEngineRenderTextureFormat_SystemInt32_SystemInt32__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__ctor__SystemInt32_SystemInt32_UnityEngineRenderTextureFormat_SystemInt32__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "UnityEngineRenderTextureDescriptor.__ctor__SystemInt32_SystemInt32_UnityEngineRenderTextureFormat__UnityEngineRenderTextureDescriptor\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCEconomyIProductArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyIProductArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__Get__SystemInt32__VRCEconomyIProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__Set__SystemInt32_VRCEconomyIProduct__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__ctor__SystemInt32__VRCEconomyIProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProductArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCEconomyIProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEconomyIProductNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyIProduct.__Equals__VRCEconomyIProduct__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProduct.__get_Buyer__VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProduct.__get_Description__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProduct.__get_ID__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyIProduct.__get_Name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCEconomyIProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEconomyStoreNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyStore.__DoesAnyPlayerOwnProduct__VRCEconomyIProduct__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__DoesPlayerOwnProduct__VRCSDKBaseVRCPlayerApi_VRCEconomyIProduct__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__GetPlayersWhoOwnProduct__VRCEconomyIProduct__VRCSDKBaseVRCPlayerApiArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__ListAvailableProducts__VRCUdonCommonInterfacesIUdonEventReceiver__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__ListProductOwners__VRCUdonCommonInterfacesIUdonEventReceiver_VRCEconomyIProduct__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__ListPurchases__VRCUdonCommonInterfacesIUdonEventReceiver_VRCSDKBaseVRCPlayerApi__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__OpenGroupListing__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__OpenGroupPage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__OpenGroupStorePage__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__OpenListing__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__SendProductEvent__VRCUdonCommonInterfacesIUdonEventReceiver_VRCEconomyIProduct__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyStore.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEconomyUdonProductArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyUdonProductArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__Get__SystemInt32__VRCEconomyUdonProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__Set__SystemInt32_VRCEconomyUdonProduct__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__ctor__SystemInt32__VRCEconomyUdonProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProductArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCEconomyUdonProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEconomyUdonProductNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCEconomyUdonProduct.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__Equals__VRCEconomyIProduct__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__GetInstanceID__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__get_Description__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__get_ID__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__get_Image__UnityEngineTexture2D\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__get_Name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__get_name__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCEconomyUdonProduct.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCEconomyUdonProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_OnDrop\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "Event_OnImageLoadError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "Event_OnImageLoadSuccess\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 12,
+        "lineNum2": 12
+      },
+      {
+        "text": "Event_OnInputMethodChanged\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnListAvailableProducts\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnListProductOwners\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnListPurchases\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnOwnershipRequest\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 13
+      },
+      {
+        "text": "Event_OnOwnershipTransferred\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 14
+      },
+      {
+        "text": "Event_OnPickup\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 15
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPlayerTriggerStay\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 31,
+        "lineNum2": 27
+      },
+      {
+        "text": "Event_OnPostSerialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 32,
+        "lineNum2": 28
+      },
+      {
+        "text": "Event_OnPreSerialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 33,
+        "lineNum2": 29
+      },
+      {
+        "text": "Event_OnProductEvent\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPurchaseConfirmed\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPurchaseExpired\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnPurchasesLoaded\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnScreenUpdate\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 38,
+        "lineNum2": 30
+      },
+      {
+        "text": "Event_OnSpawn\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 39,
+        "lineNum2": 31
+      },
+      {
+        "text": "Event_OnStationEntered\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 40,
+        "lineNum2": 32
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3DataDataTokenNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Const_VRCSDK3DataDataToken\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 1,
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDK3DataDataToken.__Bitcast__VRCSDK3DataTokenType__VRCSDK3DataDataToken\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3DataDataToken.__CompareTo__SystemObject__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDK3DataDataToken.__CompareTo__VRCSDK3DataDataToken__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDK3DataDataToken.__Equals__SystemBoolean__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 4
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3StringLoadingIVRCStringDownloadNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_ErrorCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 1,
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_Error__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_ResultBytes__SystemByteArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_Result__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_UdonBehaviour__VRCUdonCommonInterfacesIUdonEventReceiver\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDK3StringLoadingIVRCStringDownload.__get_Url__VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 6,
+        "lineNum2": 5
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDKBaseVRCInputMethodNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Const_VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__ToString__SystemString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Controller__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Count__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Gaze__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Generic__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_HPMotionController__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Index__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Keyboard__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Mouse__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Oculus__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_OpenXRGeneric__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Osc__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Pico__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_QuestHands__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Touch__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_ViveXr__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCInputMethod.__get_Vive__VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCUrlNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCUrl.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__Get__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__IsNullOrEmpty__VRCSDKBaseVRCUrl__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCSDKBaseVRCUrl.__get_Empty__VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCUrl\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_UnityEngineVector3Array\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 92,
+        "lineNum2": 92
+      },
+      {
+        "text": "Type_UnityEngineVector4\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 93,
+        "lineNum2": 93
+      },
+      {
+        "text": "Type_UnityEngineVector4Array\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 94,
+        "lineNum2": 94
+      },
+      {
+        "text": "Type_VRCEconomyIProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 95,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCEconomyIProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 96,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCEconomyUdonProduct\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 97,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCEconomyUdonProductArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 98,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsMirrorClearFlags\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 99,
+        "lineNum2": 95
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsMirrorClearFlagsArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 100,
+        "lineNum2": 96
+      },
+      {
+        "text": "Type_VRCSDK3ComponentsVRCAvatarPedestal\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 101,
+        "lineNum2": 97
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCUdonCommonDeserializationResultNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCUdonCommonDeserializationResult.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCUdonCommonDeserializationResult.__GetType__SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCUdonCommonDeserializationResult.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCUdonCommonDeserializationResult.__get_isFromStorage__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCUdonCommonDeserializationResult.__get_receiveTime__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCUdonCommonDeserializationResult.__get_sendTime__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 7
+      },
+      {
+        "text": "Variable_VRCUdonCommonDeserializationResult\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  }
+]

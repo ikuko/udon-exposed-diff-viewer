@@ -1,0 +1,154 @@
+[
+  {
+    "file": "VRCSDKBaseVRCPlayerApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__CombatSetup__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 9
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__EnablePickups__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvailableLanguages__SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 13,
+        "lineNum2": 12
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightMaximumAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 14,
+        "lineNum2": 13
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightMinimumAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 14
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 15
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBoneRotation__UnityEngineHumanBodyBones__UnityEngineQuaternion\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 16
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetCurrentLanguage__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetGravityStrength__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 17
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 20,
+        "lineNum2": 18
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetJumpImpulse__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 21,
+        "lineNum2": 19
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemSingleArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 27,
+        "lineNum2": 27
+      },
+      {
+        "text": "Type_SystemSingleRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 28,
+        "lineNum2": 28
+      },
+      {
+        "text": "Type_SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 29,
+        "lineNum2": 29
+      },
+      {
+        "text": "Type_SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemStringRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 31,
+        "lineNum2": 30
+      },
+      {
+        "text": "Type_SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 32,
+        "lineNum2": 31
+      },
+      {
+        "text": "Type_SystemUInt16\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 33,
+        "lineNum2": 32
+      }
+    ],
+    "type": "modified"
+  }
+]

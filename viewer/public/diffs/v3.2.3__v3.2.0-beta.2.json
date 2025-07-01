@@ -1,0 +1,341 @@
+[
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_MidiNoteOff\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "Event_MidiNoteOn\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "Event_OnAsyncGpuReadbackComplete\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 5,
+        "lineNum2": 5
+      },
+      {
+        "text": "Event_OnAvatarChanged\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnAvatarEyeHeightChanged\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnControllerColliderHitPlayer\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 6
+      },
+      {
+        "text": "Event_OnDeserialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 7
+      },
+      {
+        "text": "Event_OnDrop\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 8
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDKBaseVRCPlayerApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__CombatSetup__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 9
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__EnablePickups__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 10,
+        "lineNum2": 10
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 11,
+        "lineNum2": 11
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvailableLanguages__SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightMaximumAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetAvatarEyeHeightMinimumAsMeters__SystemSingle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 16,
+        "lineNum2": 12
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBoneRotation__UnityEngineHumanBodyBones__UnityEngineQuaternion\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 13
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetCurrentLanguage__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetGravityStrength__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 14
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 20,
+        "lineNum2": 15
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetJumpImpulse__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 21,
+        "lineNum2": 16
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetManualAvatarScalingAllowed__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPickupInHand__VRCSDKBaseVRC_PickupPickupHand__VRCSDKBaseVRC_Pickup\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 23,
+        "lineNum2": 17
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerById__SystemInt32__VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 24,
+        "lineNum2": 18
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerCount__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 25,
+        "lineNum2": 19
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarAudioGain__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 49,
+        "lineNum2": 43
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarAudioNearRadius__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 50,
+        "lineNum2": 44
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarAudioVolumetricRadius__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 51,
+        "lineNum2": 45
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarEyeHeightByMeters__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 52,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarEyeHeightByMultiplier__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 53,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarEyeHeightMaximumByMeters__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 54,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetAvatarEyeHeightMinimumByMeters__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 55,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetGravityStrength__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 56,
+        "lineNum2": 46
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetJumpImpulse__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 57,
+        "lineNum2": 47
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetManualAvatarScalingAllowed__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 58,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 59,
+        "lineNum2": 48
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetRunSpeed__SystemSingle__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 60,
+        "lineNum2": 49
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetSilencedToTagged__SystemInt32_SystemString_SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 61,
+        "lineNum2": 50
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_SystemSingleArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 27,
+        "lineNum2": 27
+      },
+      {
+        "text": "Type_SystemSingleRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 28,
+        "lineNum2": 28
+      },
+      {
+        "text": "Type_SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 29,
+        "lineNum2": 29
+      },
+      {
+        "text": "Type_SystemStringArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_SystemStringRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 31,
+        "lineNum2": 30
+      },
+      {
+        "text": "Type_SystemType\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 32,
+        "lineNum2": 31
+      },
+      {
+        "text": "Type_SystemUInt16\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 33,
+        "lineNum2": 32
+      }
+    ],
+    "type": "modified"
+  }
+]

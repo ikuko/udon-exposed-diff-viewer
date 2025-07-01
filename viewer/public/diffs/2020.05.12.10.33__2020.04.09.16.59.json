@@ -1,0 +1,484 @@
+[
+  {
+    "file": "UdonNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "For\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 110,
+        "lineNum2": 110
+      },
+      {
+        "text": "Get_Variable\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 111,
+        "lineNum2": 111
+      },
+      {
+        "text": "Set_Variable\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 112,
+        "lineNum2": 112
+      },
+      {
+        "text": "SubGraph\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 113
+      },
+      {
+        "text": "Comment\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 113,
+        "lineNum2": 114
+      },
+      {
+        "text": "Type_UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 114,
+        "lineNum2": 115
+      },
+      {
+        "text": "Type_SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 115,
+        "lineNum2": 116
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 581,
+        "lineNum2": 582
+      },
+      {
+        "text": "Type_UnityEngineLayerMaskRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 582,
+        "lineNum2": 583
+      },
+      {
+        "text": "Type_UnityEngineLayerMaskArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 583,
+        "lineNum2": 584
+      },
+      {
+        "text": "Type_UnityCollectionsNativeArrayUnityEngineParticleSystemParticle\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 584,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemParticleArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 585,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemStopBehavior\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 586,
+        "lineNum2": 585
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemEmitParams\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 587,
+        "lineNum2": 586
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemCustomData\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 588,
+        "lineNum2": 587
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemLightsModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 614,
+        "lineNum2": 613
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemTrailModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 615,
+        "lineNum2": 614
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemCustomDataModule\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 616,
+        "lineNum2": 615
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemParticleArray\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 616
+      },
+      {
+        "text": "Type_UnityEngineParticleSystem\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 617,
+        "lineNum2": 617
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemRef\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 618,
+        "lineNum2": 618
+      },
+      {
+        "text": "Type_UnityEngineParticleSystemArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 619,
+        "lineNum2": 619
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "UnityEngineNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "UnityEngineParticleSystem.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9639,
+        "lineNum2": 9639
+      },
+      {
+        "text": "UnityEngineParticleSystem.__op_Equality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9640,
+        "lineNum2": 9640
+      },
+      {
+        "text": "UnityEngineParticleSystem.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9641,
+        "lineNum2": 9641
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9642,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray_SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9643,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9644,
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__Simulate__SystemSingle_SystemBoolean_SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9645,
+        "lineNum2": 9642
+      },
+      {
+        "text": "UnityEngineParticleSystem.__Simulate__SystemSingle_SystemBoolean_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9646,
+        "lineNum2": 9643
+      },
+      {
+        "text": "UnityEngineParticleSystem.__Simulate__SystemSingle_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9647,
+        "lineNum2": 9644
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "UnityEngineParticleSystem.__SetParticles__UnityEngineParticleSystemParticleArray_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9701,
+        "lineNum2": 9698
+      },
+      {
+        "text": "UnityEngineParticleSystem.__SetParticles__UnityEngineParticleSystemParticleArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9702,
+        "lineNum2": 9699
+      },
+      {
+        "text": "UnityEngineParticleSystem.__SetParticles__UnityEngineParticleSystemParticleArray__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9703,
+        "lineNum2": 9700
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray_SystemInt32_SystemInt32__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 9701
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray_SystemInt32__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 9702
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetParticles__UnityEngineParticleSystemParticleArray__SystemInt32\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 9703
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9704,
+        "lineNum2": 9704
+      },
+      {
+        "text": "UnityEngineParticleSystem.__get_gameObject__UnityEngineGameObject\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9705,
+        "lineNum2": 9705
+      },
+      {
+        "text": "UnityEngineParticleSystem.__GetComponent__SystemType__UnityEngineComponent\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9706,
+        "lineNum2": 9706
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3NodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_displayName__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get__PlayHapticEventInHand__VRCSDKBaseVRCPlayerApiActionVRCSDKBaseVRCPlayerApiVRCSDKBaseVRC_PickupPickupHandSystemSingleSystemSingleSystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 3
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__set__PlayHapticEventInHand__VRCSDKBaseVRCPlayerApiActionVRCSDKBaseVRCPlayerApiVRCSDKBaseVRC_PickupPickupHandSystemSingleSystemSingleSystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 4
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get__TeleportToOrientationLerp__VRCSDKBaseVRCPlayerApiActionVRCSDKBaseVRCPlayerApiUnityEngineVector3UnityEngineQuaternionVRCSDKBaseVRC_SceneDescriptorSpawnOrientationSystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__set__TeleportToOrientationLerp__VRCSDKBaseVRCPlayerApiActionVRCSDKBaseVRCPlayerApiUnityEngineVector3UnityEngineQuaternionVRCSDKBaseVRC_SceneDescriptorSpawnOrientationSystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_isMaster__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 5
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__IsPlayerGrounded__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 6
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__get_AllPlayers__SystemCollectionsGenericListVRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 7
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPickupInHand__VRCSDKBaseVRC_PickupPickupHand__VRCSDKBaseVRC_Pickup\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 15
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 16
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion_VRCSDKBaseVRC_SceneDescriptorSpawnOrientation__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 17
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion_VRCSDKBaseVRC_SceneDescriptorSpawnOrientation_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__EnablePickups__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 21,
+        "lineNum2": 18
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__SetPlayerTag__SystemString_SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 22,
+        "lineNum2": 19
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetPlayerTag__SystemString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 23,
+        "lineNum2": 20
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_m_ReflectLayers__UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 360,
+        "lineNum2": 357
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__set_m_ReflectLayers__UnityEngineLayerMask\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 361,
+        "lineNum2": 358
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__OnWillRenderObject__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 362,
+        "lineNum2": 359
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__CameraPostRender__UnityEngineCamera__SystemVoid\n",
+        "added": true,
+        "removed": false,
+        "lineNum1": "",
+        "lineNum2": 360
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_enabled__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 363,
+        "lineNum2": 361
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__set_enabled__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 364,
+        "lineNum2": 362
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCMirrorReflection.__get_transform__UnityEngineTransform\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 365,
+        "lineNum2": 363
+      }
+    ],
+    "type": "modified"
+  }
+]

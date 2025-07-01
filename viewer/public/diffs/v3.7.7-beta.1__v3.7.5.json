@@ -1,0 +1,722 @@
+[
+  {
+    "file": "VRCEventNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Event_OnAvatarEyeHeightChanged\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 7,
+        "lineNum2": 7
+      },
+      {
+        "text": "Event_OnControllerColliderHitPlayer\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 8,
+        "lineNum2": 8
+      },
+      {
+        "text": "Event_OnDeserialization\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 9,
+        "lineNum2": 9
+      },
+      {
+        "text": "Event_OnDroneTriggerEnter\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnDroneTriggerExit\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnDroneTriggerStay\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "Event_OnDrop\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 13,
+        "lineNum2": 10
+      },
+      {
+        "text": "Event_OnImageLoadError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 14,
+        "lineNum2": 11
+      },
+      {
+        "text": "Event_OnImageLoadSuccess\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 15,
+        "lineNum2": 12
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3ComponentsVRCObjectSyncNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__TeleportTo__UnityEngineTransform__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 35,
+        "lineNum2": 35
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__ToString__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 36,
+        "lineNum2": 36
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__get_AllowCollisionOwnershipTransfer__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 37,
+        "lineNum2": 37
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__get_ForceKinematicOnRemote__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__get_destroyCancellationToken__SystemThreadingCancellationToken\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 39,
+        "lineNum2": 38
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__get_enabled__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 40,
+        "lineNum2": 39
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__get_gameObject__UnityEngineGameObject\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 41,
+        "lineNum2": 40
+      },
+      {
+        "text": "...\n",
+        "separator": true,
+        "lineNum1": "",
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__op_Implicit__UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 45,
+        "lineNum2": 44
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__op_Inequality__UnityEngineObject_UnityEngineObject__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 46,
+        "lineNum2": 45
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__set_AllowCollisionOwnershipTransfer__SystemBoolean\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 47,
+        "lineNum2": 46
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__set_ForceKinematicOnRemote__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 48,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__set_enabled__SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 49,
+        "lineNum2": 47
+      },
+      {
+        "text": "VRCSDK3ComponentsVRCObjectSync.__set_name__SystemString__SystemVoid\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 50,
+        "lineNum2": 48
+      },
+      {
+        "text": "Variable_VRCSDK3ComponentsVRCObjectSync\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 51,
+        "lineNum2": 49
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDK3ImageIVRCImageDownloadNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDK3ImageIVRCImageDownload.__Dispose__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDK3ImageIVRCImageDownload.__get_ErrorMessage__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 2,
+        "lineNum2": 1
+      },
+      {
+        "text": "VRCSDK3ImageIVRCImageDownload.__get_Error__VRCSDK3ImageVRCImageDownloadError\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 3,
+        "lineNum2": 2
+      },
+      {
+        "text": "VRCSDK3ImageIVRCImageDownload.__get_Material__UnityEngineMaterial\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 4,
+        "lineNum2": 3
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCSDKBaseVRCDroneApiArrayNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__Clone__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__CopyTo__SystemArray_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__CopyTo__SystemArray_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__Equals__SystemObject__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetEnumerator__SystemCollectionsIEnumerator\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetLength__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetLongLength__SystemInt32__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetLowerBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetType__SystemType\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetUpperBound__SystemInt32__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt32Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt32_SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt32_SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 14,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt32__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 15,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt64Array__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 16,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt64_SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 17,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt64_SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 18,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__GetValue__SystemInt64__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 19,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__Get__SystemInt32__VRCSDKBaseVRCDroneApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__Initialize__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 21,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt32Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 22,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt32_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 23,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt32_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 24,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt32__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 25,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt64Array__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 26,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt64_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 27,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt64_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 28,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__SetValue__SystemObject_SystemInt64__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 29,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__Set__SystemInt32_VRCSDKBaseVRCDroneApi__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 30,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__ToString__SystemString\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 31,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__ctor__SystemInt32__VRCSDKBaseVRCDroneApiArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 32,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_IsFixedSize__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 33,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_IsReadOnly__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 34,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_IsSynchronized__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 35,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_Length__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 36,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_LongLength__SystemInt64\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 37,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_Rank__SystemInt32\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 38,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApiArray.__get_SyncRoot__SystemObject\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 39,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCDroneApiArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 40,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 41,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCDroneApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__GetPlayer__VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 1,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__GetPosition__UnityEngineVector3\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 2,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__GetRotation__UnityEngineQuaternion\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 3,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__GetVelocity__UnityEngineVector3\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 4,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__IsDeployed__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 5,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__SetVelocity__UnityEngineVector3__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 6,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion_SystemBoolean__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 7,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 8,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__TryGetPosition__UnityEngineVector3Ref__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 9,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__TryGetRotation__UnityEngineQuaternionRef__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 10,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCDroneApi.__TryGetVelocity__UnityEngineVector3Ref__SystemBoolean\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 11,
+        "lineNum2": ""
+      },
+      {
+        "text": "Variable_VRCSDKBaseVRCDroneApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 12,
+        "lineNum2": ""
+      },
+      {
+        "text": "\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 13,
+        "lineNum2": ""
+      }
+    ],
+    "type": "removed"
+  },
+  {
+    "file": "VRCSDKBaseVRCPlayerApiNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 17,
+        "lineNum2": 17
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetBoneRotation__UnityEngineHumanBodyBones__UnityEngineQuaternion\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 18,
+        "lineNum2": 18
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetCurrentLanguage__SystemString\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 19,
+        "lineNum2": 19
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetDrone__VRCSDKBaseVRCDroneApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 20,
+        "lineNum2": ""
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetGravityStrength__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 21,
+        "lineNum2": 20
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetHashCode__SystemInt32\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 22,
+        "lineNum2": 21
+      },
+      {
+        "text": "VRCSDKBaseVRCPlayerApi.__GetJumpImpulse__SystemSingle\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 23,
+        "lineNum2": 22
+      }
+    ],
+    "type": "modified"
+  },
+  {
+    "file": "VRCTypeNodeRegistry.txt",
+    "lines": [
+      {
+        "text": "Type_VRCSDKBasePlatformVRCOrientation\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 181,
+        "lineNum2": 181
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCCustomAction\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 182,
+        "lineNum2": 182
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCCustomActionArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 183,
+        "lineNum2": 183
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCDroneApi\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 184,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCDroneApiArray\n",
+        "added": false,
+        "removed": true,
+        "lineNum1": 185,
+        "lineNum2": ""
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCInputMethod\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 186,
+        "lineNum2": 184
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApi\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 187,
+        "lineNum2": 185
+      },
+      {
+        "text": "Type_VRCSDKBaseVRCPlayerApiArray\n",
+        "added": false,
+        "removed": false,
+        "lineNum1": 188,
+        "lineNum2": 186
+      }
+    ],
+    "type": "modified"
+  }
+]
