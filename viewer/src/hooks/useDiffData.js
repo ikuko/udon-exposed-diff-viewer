@@ -88,6 +88,7 @@ const getMinorVersionDiff = (v1, v2) => {
 
 export const useDiffData = () => {
   const [versions, setVersions] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [selectedVersion1, setSelectedVersion1] = useState('');
   const [selectedVersion2, setSelectedVersion2] = useState('');
   const [diffResult, setDiffResult] = useState([]);
@@ -145,10 +146,14 @@ export const useDiffData = () => {
       return;
     }
 
+    setLoading(true);
+    setCompared(false);
+
     // If both versions are the same, show no differences
     if (selectedVersion1 === selectedVersion2) {
       setDiffResult([]);
       setCompared(true);
+      setLoading(false);
       return;
     }
 
@@ -167,6 +172,8 @@ export const useDiffData = () => {
       } catch (error) {
         console.error("Could not fetch diff data:", error);
         // Optionally, handle the error in the UI
+      } finally {
+        setLoading(false);
       }
     } else {
       // Fetch full data for each version and compute diff on the client
@@ -216,12 +223,15 @@ export const useDiffData = () => {
         setCompared(true);
       } catch (error) {
         console.error("Could not fetch or compute diff data:", error);
+      } finally {
+        setLoading(false);
       }
     }
   };
 
   return {
     versions,
+    loading,
     selectedVersion1,
     setSelectedVersion1,
     selectedVersion2,

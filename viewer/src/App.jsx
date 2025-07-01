@@ -9,6 +9,7 @@ function App() {
   const [theme, toggleTheme] = useTheme();
   const {
     versions,
+    loading,
     selectedVersion1,
     setSelectedVersion1,
     selectedVersion2,
@@ -36,18 +37,31 @@ function App() {
             label="Version 2"
           />
           <div className="col-md-4">
-            <button className="btn btn-primary w-100" onClick={handleCompare}>
-              Compare
+            <button className="btn btn-primary w-100" onClick={handleCompare} disabled={loading}>
+              {loading ? (
+                <>
+                  <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  <span className="visually-hidden">Loading...</span>
+                </>
+              ) : 'Compare'}
             </button>
           </div>
         </div>
 
-        {compared && diffResult.length === 0 && (
+        {loading && (
+          <div className="text-center mt-4">
+            <div className="spinner-border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        )}
+
+        {compared && diffResult.length === 0 && !loading && (
           <div className="alert alert-success mt-4" role="alert">
             No differences found.
           </div>
         )}
-        {diffResult.length > 0 && <DiffViewer diffResult={diffResult} />}
+        {diffResult.length > 0 && !loading && <DiffViewer diffResult={diffResult} />}
       </div>
       <Footer />
     </div>
