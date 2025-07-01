@@ -4,7 +4,10 @@ const Footer = () => {
   const lastUpdated = import.meta.env.VITE_APP_BUILD_TIMESTAMP;
 
   return (
-    <footer className="footer mt-auto py-3 text-center">
+    <footer
+      className="footer mt-auto pt-3 bg-body-tertiary text-center"
+      style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
+    >
       <span className="text-muted">
         &copy; {new Date().getFullYear()} ikuko
       </span>
