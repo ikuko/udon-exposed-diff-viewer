@@ -3,6 +3,7 @@ import { useDiffData } from './hooks/useDiffData';
 import Navbar from './components/Navbar';
 import VersionSelector from './components/VersionSelector';
 import DiffViewer from './components/DiffViewer';
+import Footer from './components/Footer';
 
 function App() {
   const [theme, toggleTheme] = useTheme();
@@ -18,9 +19,9 @@ function App() {
   } = useDiffData();
 
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
-      <div className="container-fluid pt-5 mt-5">
+      <div className="container-fluid pt-5 mt-5 flex-grow-1 d-flex flex-column justify-content-center">
         <div className="row align-items-end gy-3">
           <VersionSelector
             versions={versions}
@@ -48,7 +49,8 @@ function App() {
         )}
         {diffResult.length > 0 && <DiffViewer diffResult={diffResult} />}
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
