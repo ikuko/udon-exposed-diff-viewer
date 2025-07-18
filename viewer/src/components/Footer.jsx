@@ -8,7 +8,7 @@ const Footer = () => {
       className="footer mt-auto pt-3 text-center"
     >
       <span className="text-muted">
-        &copy; {new Date().getFullYear()} ikuko
+        &copy; {new Date().getFullYear()} ikuko by Hoshino Labs.
       </span>
       <div className="mt-2">
         <a href="https://github.com/ikuko/udon-exposed-diff-viewer" target="_blank" rel="noopener noreferrer" className="text-muted me-3" title="GitHub">
