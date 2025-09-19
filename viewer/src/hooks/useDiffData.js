@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { diffLines } from 'diff';
+import { getQueryParam, QUERY_KEYS } from '../utils/query';
 
 // Helper function to convert diff output to a simple array of line objects
 const createLineArray = (differences) => {
@@ -134,7 +135,14 @@ export const useDiffData = () => {
           return 0;
         });
         setVersions(availableVersions);
-        if (availableVersions.length > 1) {
+        
+        // クエリパラメータがある場合はデフォルト値をセットしない
+        const queryV1 = getQueryParam(QUERY_KEYS.VERSION_1);
+        const queryV2 = getQueryParam(QUERY_KEYS.VERSION_2);
+        const hasValidQuery = (queryV1 && availableVersions.includes(queryV1)) || 
+                             (queryV2 && availableVersions.includes(queryV2));
+        
+        if (!hasValidQuery && availableVersions.length > 1) {
           setSelectedVersion1(availableVersions[1]);
           setSelectedVersion2(availableVersions[0]);
         }

@@ -1,6 +1,7 @@
 import { useTheme } from './hooks/useTheme';
 import { useDiffData } from './hooks/useDiffData';
 import { useViewportHeight } from './hooks/useViewportHeight';
+import { useQuerySync } from './hooks/useQuerySync';
 import Navbar from './components/Navbar';
 import VersionSelector from './components/VersionSelector';
 import DiffViewer from './components/DiffViewer';
@@ -20,6 +21,16 @@ function App() {
     compared,
     handleCompare,
   } = useDiffData();
+
+  // URLクエリパラメータとの同期（自動Compare機能付き）
+  useQuerySync(
+    versions,
+    selectedVersion1,
+    selectedVersion2,
+    setSelectedVersion1,
+    setSelectedVersion2,
+    handleCompare
+  );
 
   return (
     <div className="d-flex flex-column" style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}>
