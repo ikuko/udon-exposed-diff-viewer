@@ -1,6 +1,6 @@
 # Udon Exposed Diff Viewer
 
-This is a web application for viewing the differences between various versions of [UdonExposed](https://github.com/Merlin-san/UdonExposed). It allows users to select two different versions and see a clear, color-coded diff of the files.
+This is a web application for viewing the differences between various versions of [udon-exposed-diff-viewer](https://github.com/ikuko/udon-exposed-diff-viewer). It allows users to select two different versions and see a clear, color-coded diff of the files.
 
 ## Features
 
@@ -20,14 +20,14 @@ This is a web application for viewing the differences between various versions o
 ### Prerequisites
 
 - Node.js (v18 or later)
-- A local clone of the [UdonExposed](https://github.com/Merlin-san/UdonExposed) repository.
+- A local clone of the [udon-exposed-diff-viewer](https://github.com/ikuko/udon-exposed-diff-viewer) repository.
 
 ### Installation
 
 1.  **Clone this repository:**
 
     ```sh
-    git clone https://github.com/your-username/udon-exposed-diff-viewer.git
+    git clone https://github.com/ikuko/udon-exposed-diff-viewer.git
     cd udon-exposed-diff-viewer/viewer
     ```
 
@@ -36,7 +36,7 @@ This is a web application for viewing the differences between various versions o
     The data generation script expects the `UdonExposed` repository to be located at `../UdonExposed` relative to the project's root.
 
     ```sh
-    git clone https://github.com/Merlin-san/UdonExposed.git ../UdonExposed
+    git clone https://github.com/ikuko/udon-exposed-diff-viewer.git ../UdonExposed
     ```
 
 3.  **Install dependencies:**
