@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { diffLines } from 'diff';
 import { getQueryParam, QUERY_KEYS } from '../utils/query';
+import { compareVersionsDesc } from '../utils/versionSort';
 
 // Helper function to convert diff output to a simple array of line objects
 const createLineArray = (differences) => {
@@ -99,41 +100,7 @@ export const useDiffData = () => {
     fetch('./versions.json')
       .then((response) => response.json())
       .then((data) => {
-        const availableVersions = data.sort((a, b) => {
-          const aIsV = a.startsWith('v');
-          const bIsV = b.startsWith('v');
-
-          if (aIsV && !bIsV) return -1;
-          if (!aIsV && bIsV) return 1;
-
-          const aMatch = a.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
-          const bMatch = b.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
-
-          if (!aMatch || !bMatch) {
-            return b.localeCompare(a);
-          }
-
-          for (let i = 1; i <= 3; i++) {
-            const aPart = parseInt(aMatch[i], 10);
-            const bPart = parseInt(bMatch[i], 10);
-            if (aPart !== bPart) {
-              return bPart - aPart;
-            }
-          }
-
-          const aPre = aMatch[4];
-          const bPre = bMatch[4];
-
-          if (aPre && !bPre) {
-            return 1;
-          } else if (!aPre && bPre) {
-            return -1;
-          } else if (aPre && bPre) {
-            return bPre.localeCompare(aPre);
-          }
-
-          return 0;
-        });
+        const availableVersions = data.sort(compareVersionsDesc);
         setVersions(availableVersions);
         
         // クエリパラメータがある場合はデフォルト値をセットしない

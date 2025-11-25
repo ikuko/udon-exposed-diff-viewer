@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { diffLines } from 'diff';
+import { compareVersionsDesc } from '../src/utils/versionSort.js';
 
 // Helper functions from useDiffData.js, adapted for Node.js
 const createLineArray = (differences) => {
@@ -103,7 +104,7 @@ try {
   const versions = fs.readdirSync(udonExposedDir).filter(version => {
     const versionDir = path.join(udonExposedDir, version);
     return fs.statSync(versionDir).isDirectory();
-  });
+  }).sort(compareVersionsDesc);
 
   // 1. バージョンごとのフルデータを先に dataDir に書き出す（メモリに全て保持しない）
   console.log('\nCopying full version data...');
