@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { diffLines } from 'diff';
 import { getQueryParam, QUERY_KEYS } from '../utils/query';
-import { compareVersionsDesc } from '../utils/versionSort';
+import { compareVersionsDesc, getMinorVersionDiff } from '../utils/versionSort';
 
 // Helper function to convert diff output to a simple array of line objects
 const createLineArray = (differences) => {
@@ -79,13 +79,6 @@ const getContextualLines = (lines, context = 3) => {
     lastIndex = index;
   }
   return result;
-};
-
-const getMinorVersionDiff = (v1, v2) => {
-  const aMatch = v1.match(/v?(\d+)\.(\d+)/);
-  const bMatch = v2.match(/v?(\d+)\.(\d+)/);
-  if (!aMatch || !bMatch) return Infinity;
-  return Math.abs(parseInt(bMatch[2], 10) - parseInt(aMatch[2], 10));
 };
 
 export const useDiffData = () => {

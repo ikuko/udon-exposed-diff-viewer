@@ -44,3 +44,17 @@ export const compareVersionsDesc = (a, b) => {
 
   return 0;
 };
+
+/**
+ * 2つのバージョン間のマイナーバージョンの差を計算する
+ * 
+ * @param {string} v1 - 比較対象のバージョン文字列
+ * @param {string} v2 - 比較対象のバージョン文字列
+ * @returns {number} マイナーバージョンの差の絶対値（パースできない場合は Infinity）
+ */
+export const getMinorVersionDiff = (v1, v2) => {
+  const aMatch = v1.match(/v?(\d+)\.(\d+)/);
+  const bMatch = v2.match(/v?(\d+)\.(\d+)/);
+  if (!aMatch || !bMatch) return Infinity;
+  return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
+};

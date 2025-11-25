@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { diffLines } from 'diff';
-import { compareVersionsDesc } from '../src/utils/versionSort.js';
+import { compareVersionsDesc, getMinorVersionDiff } from '../src/utils/versionSort.js';
 
 // Helper functions from useDiffData.js, adapted for Node.js
 const createLineArray = (differences) => {
@@ -132,13 +132,6 @@ try {
 
   // 3. diff 対象の組み合わせを作成
   console.log('\nCalculating diffs...');
-  const getMinorVersionDiff = (v1, v2) => {
-    const aMatch = v1.match(/v?(\d+)\.(\d+)/);
-    const bMatch = v2.match(/v?(\d+)\.(\d+)/);
-    if (!aMatch || !bMatch) return Infinity;
-    return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
-  };
-
   const combinations = [];
   for (let i = 0; i < versions.length; i++) {
     for (let j = i + 1; j < versions.length; j++) {
