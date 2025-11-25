@@ -105,32 +105,44 @@ try {
     return fs.statSync(versionDir).isDirectory();
   });
 
-  console.log('Reading version data...');
-  const versionData = {};
-  for (const version of versions) {
-    console.log(`- ${version}`);
+  // 1. バージョンごとのフルデータを先に dataDir に書き出す（メモリに全て保持しない）
+  console.log('\nCopying full version data...');
+  versions.forEach((version, index) => {
+    const progress = Math.round(((index + 1) / versions.length) * 100);
+    console.log(`[${progress}%] Copying ${version}...`);
+
     const versionDir = path.join(udonExposedDir, version);
-    versionData[version] = {};
     const files = fs.readdirSync(versionDir);
+
+    const versionFiles = {};
     for (const file of files) {
       const filePath = path.join(versionDir, file);
-      versionData[version][file] = fs.readFileSync(filePath, 'utf-8');
+      versionFiles[file] = fs.readFileSync(filePath, 'utf-8');
     }
-  }
 
+    fs.writeFileSync(
+      path.join(dataDir, `${version}.json`),
+      JSON.stringify(versionFiles, null, 2)
+    );
+  });
+
+  // 2. versions.json を書き出し
+  fs.writeFileSync(path.join(publicDir, 'versions.json'), JSON.stringify(versions, null, 2));
+
+  // 3. diff 対象の組み合わせを作成
   console.log('\nCalculating diffs...');
+  const getMinorVersionDiff = (v1, v2) => {
+    const aMatch = v1.match(/v?(\d+)\.(\d+)/);
+    const bMatch = v2.match(/v?(\d+)\.(\d+)/);
+    if (!aMatch || !bMatch) return Infinity;
+    return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
+  };
+
   const combinations = [];
   for (let i = 0; i < versions.length; i++) {
     for (let j = i + 1; j < versions.length; j++) {
       const version1 = versions[i];
       const version2 = versions[j];
-
-      const getMinorVersionDiff = (v1, v2) => {
-        const aMatch = v1.match(/v?(\d+)\.(\d+)/);
-        const bMatch = v2.match(/v?(\d+)\.(\d+)/);
-        if (!aMatch || !bMatch) return Infinity;
-        return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
-      }
 
       if (getMinorVersionDiff(version1, version2) <= 1) {
         combinations.push([version1, version2]);
@@ -139,21 +151,35 @@ try {
     }
   }
 
+  // 4. 組み合わせごとに必要な 2 バージョンだけ読み込んで diff を計算
   let processedCombinations = 0;
   for (const [version1, version2] of combinations) {
     processedCombinations++;
     const progress = Math.round((processedCombinations / combinations.length) * 100);
     console.log(`[${progress}%] Calculating diff between ${version1} and ${version2}...`);
 
-    const version1Files = versionData[version1];
-    const version2Files = versionData[version2];
+    // dataDir から 2 バージョン分だけ読み込む
+    const version1Path = path.join(dataDir, `${version1}.json`);
+    const version2Path = path.join(dataDir, `${version2}.json`);
+
+    if (!fs.existsSync(version1Path) || !fs.existsSync(version2Path)) {
+      console.warn(`Skipping diff for ${version1} and ${version2} because data file is missing.`);
+      continue;
+    }
+
+    const version1Files = JSON.parse(fs.readFileSync(version1Path, 'utf-8'));
+    const version2Files = JSON.parse(fs.readFileSync(version2Path, 'utf-8'));
 
     const allFiles = new Set([...Object.keys(version1Files), ...Object.keys(version2Files)]);
     const diffResult = [];
 
     for (const file of allFiles) {
-      if (!version1Files[file]) {
-        const lines = version2Files[file].split('\n').map((line, index) => ({
+      const content1 = version1Files[file];
+      const content2 = version2Files[file];
+
+      if (content1 == null && content2 != null) {
+        // 追加されたファイル
+        const lines = content2.split('\n').map((line, index) => ({
           text: line + '\n',
           added: true,
           removed: false,
@@ -161,8 +187,9 @@ try {
           lineNum2: index + 1,
         }));
         diffResult.push({ file, lines, type: 'added' });
-      } else if (!version2Files[file]) {
-        const lines = version1Files[file].split('\n').map((line, index) => ({
+      } else if (content1 != null && content2 == null) {
+        // 削除されたファイル
+        const lines = content1.split('\n').map((line, index) => ({
           text: line + '\n',
           added: false,
           removed: true,
@@ -170,29 +197,18 @@ try {
           lineNum2: '',
         }));
         diffResult.push({ file, lines, type: 'removed' });
-      } else if (version1Files[file] !== version2Files[file]) {
-        const differences = diffLines(version1Files[file], version2Files[file]);
+      } else if (content1 !== content2) {
+        // 修正されたファイル
+        const differences = diffLines(content1, content2);
         const lineArray = createLineArray(differences);
         const contextualLines = getContextualLines(lineArray);
         if (contextualLines.length > 0) {
-            diffResult.push({ file, lines: contextualLines, type: 'modified' });
+          diffResult.push({ file, lines: contextualLines, type: 'modified' });
         }
       }
     }
     fs.writeFileSync(path.join(diffsDir, `${version1}__${version2}.json`), JSON.stringify(diffResult, null, 2));
   }
-
-  console.log('\nCopying full version data...');
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
-  }
-  versions.forEach((version, index) => {
-    const progress = Math.round(((index + 1) / versions.length) * 100);
-    console.log(`[${progress}%] Copying ${version}...`);
-    fs.writeFileSync(path.join(dataDir, `${version}.json`), JSON.stringify(versionData[version], null, 2));
-  });
-
-  fs.writeFileSync(path.join(publicDir, 'versions.json'), JSON.stringify(versions, null, 2));
 
   console.log('Successfully prepared diffs and versions.json');
 }
