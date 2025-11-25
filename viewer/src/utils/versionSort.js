@@ -48,13 +48,24 @@ export const compareVersionsDesc = (a, b) => {
 /**
  * 2つのバージョン間のマイナーバージョンの差を計算する
  * 
- * @param {string} v1 - 比較対象のバージョン文字列
- * @param {string} v2 - 比較対象のバージョン文字列
+ * @param {string} a - 比較対象のバージョン文字列
+ * @param {string} b - 比較対象のバージョン文字列
  * @returns {number} マイナーバージョンの差の絶対値（パースできない場合は Infinity）
  */
-export const getMinorVersionDiff = (v1, v2) => {
-  const aMatch = v1.match(/v?(\d+)\.(\d+)/);
-  const bMatch = v2.match(/v?(\d+)\.(\d+)/);
-  if (!aMatch || !bMatch) return Infinity;
-  return Math.abs(parseInt(aMatch[2], 10) - parseInt(bMatch[2], 10));
+export const getMinorVersionDiff = (a, b) => {
+  const aIsV = a.startsWith('v');
+  const bIsV = b.startsWith('v');
+
+  if (!aIsV || !bIsV) return Infinity;
+
+  const aMatch = a.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
+  const bMatch = b.match(/v?(\d+)\.(\d+)\.(\d+)(?:-(.*))?/);
+
+  if (!aMatch || !bMatch) {
+    return Infinity;
+  }
+
+  const aPart = parseInt(aMatch[2], 10);
+  const bPart = parseInt(bMatch[2], 10);
+  return Math.abs(aPart - bPart);
 };
