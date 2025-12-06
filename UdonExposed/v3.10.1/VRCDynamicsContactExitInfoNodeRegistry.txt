@@ -1,0 +1,3 @@
+Const_VRCDynamicsContactExitInfo
+VRCDynamicsContactExitInfo.__get_contactSender__VRCDynamicsContactSenderProxy
+Variable_VRCDynamicsContactExitInfo
