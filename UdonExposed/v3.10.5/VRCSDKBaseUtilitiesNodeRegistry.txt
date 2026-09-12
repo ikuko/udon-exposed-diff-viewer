@@ -1,0 +1,3 @@
+VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean
+VRCSDKBaseUtilities.__ShuffleArray__SystemInt32Array__SystemVoid
+VRCSDKBaseUtilities.__ShuffleArray__TArray__SystemVoid
