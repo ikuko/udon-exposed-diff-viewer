@@ -8,3 +8,4 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1e8079e32ecba1343bb9dae00b37c0ac,
       type: 2}
+  m_UseUCBPForAssetBundles: 0
